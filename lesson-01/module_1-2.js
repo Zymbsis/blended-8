@@ -18,6 +18,19 @@
 // У змінній min лежить число від 0 до 60. Визначте у котру чверть години
 // Попадає це число (у першу, другу, третю або четверту). Виведіть значення у консоль, або alert
 
+// const min = -1;
+// if (min > 0 && min <= 15) {
+//   console.log("first part");
+// } else if (min > 15 && min <= 30) {
+//   console.log("second part");
+// } else if (min > 30 && min <= 45) {
+//   console.log("third part");
+// } else if (min > 45 && min <= 60) {
+//   console.log("forth part");
+// } else {
+//   console.log("not found");
+// }
+
 //TODO: 3 ===================================
 //Напишіть код, який запитуватиме
 //логін за допомогою prompt і логувати результат
