@@ -47,26 +47,26 @@
 // Якщо відвідувач натиснув відміна виводити рядок 'скасовано'
 //інакше виводити рядок "Невірний пароль!"
 
-const loginInput = prompt("Enter your login");
+// const loginInput = prompt("Enter your login");
 
-if (loginInput) {
-  if (loginInput.toLowerCase() === "admin") {
-    const password = prompt("Enter your password");
-    if (password) {
-      if (password === "i am main") {
-        alert("Regards");
-      } else {
-        alert("invalid password");
-      }
-    } else {
-      alert("You are not recognized");
-    }
-  } else if (loginInput.toLowerCase() !== "admin" && loginInput) {
-    alert("Wrong Login");
-  }
-} else {
-  alert("Cancelled");
-}
+// if (loginInput) {
+//   if (loginInput.toLowerCase() === "admin") {
+//     const password = prompt("Enter your password");
+//     if (password) {
+//       if (password === "i am main") {
+//         alert("Regards");
+//       } else {
+//         alert("invalid password");
+//       }
+//     } else {
+//       alert("You are not recognized");
+//     }
+//   } else if (loginInput.toLowerCase() !== "admin" && loginInput) {
+//     alert("Wrong Login");
+//   }
+// } else {
+//   alert("Cancelled");
+// }
 
 //* Тернарний оператор
 
@@ -100,6 +100,19 @@ if (loginInput) {
 // Цикл має питати число, поки відвідувач не
 // введе число більше 100, або натисне кнопку
 // скасування в prompt
+// let number;
+// do {
+//   number = prompt('Enter a number bigger than 100');
+// } while (number < 100);
+
+// let number = prompt('Enter a number bigger than 100');
+
+// while (number <= 100) {
+//   number = prompt('Enter a number bigger than 100');
+// }
+// alert('Thank you!');
+
+
 
 //TODO: 7 ===================================
 // При завантаженні сторінки користувачеві пропонується
@@ -123,12 +136,19 @@ if (loginInput) {
 // console.log(`Сума усіх парних: ${total}`);
 
 //TODO: 9 ===================================
-//  Виведіть методом console.log() зірочки від 1 до 7 штук у вигляді трикутника таким чино
+//  Виведіть методом console.log() зірочки від 1 до 6 штук у вигляді трикутника таким чино
 // *
 // **
 // ***
 // ****
-// *******
+// *****
+// ******
+
+// let star = '*';
+// for (let i = 1; i < 7; i++) {
+//   console.log(star);
+//   star += '*';
+// }
 
 //TODO: 10 ===================================
 //Якщо число ділитися на 3 повертати
