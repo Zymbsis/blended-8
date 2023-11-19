@@ -47,7 +47,26 @@
 // Якщо відвідувач натиснув відміна виводити рядок 'скасовано'
 //інакше виводити рядок "Невірний пароль!"
 
-// const loginInput = prompt('Введіть свій логін');
+const loginInput = prompt("Enter your login");
+
+if (loginInput) {
+  if (loginInput.toLowerCase() === "admin") {
+    const password = prompt("Enter your password");
+    if (password) {
+      if (password === "i am main") {
+        alert("Regards");
+      } else {
+        alert("invalid password");
+      }
+    } else {
+      alert("You are not recognized");
+    }
+  } else if (loginInput.toLowerCase() !== "admin" && loginInput) {
+    alert("Wrong Login");
+  }
+} else {
+  alert("Cancelled");
+}
 
 //* Тернарний оператор
 
