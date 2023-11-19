@@ -132,9 +132,27 @@
 //Напишіть цикл, який виводить у консоль
 // числа від max до min за спаданням
 // Додайте усі парні числа від min до max
-
+// const min = 1;
+// const max = 10;
+// let total = 0;
+// for (let i = max; i >= min; i--) {
+// console.log(i);
+//  if (i % 2 !== 0) {
+//      continue; 
+    
+//  }
+//     total += i; 
+// }
 // console.log(`Сума усіх парних: ${total}`);
-
+const number = [1, 2, 3, 4];
+let result;
+for (let i = 0; i < number.length; i += 1) {
+    if (number[i] % 2 === 0) {
+        result = number[i];
+        break;
+   }
+}
+console.log(result);
 //TODO: 9 ===================================
 //  Виведіть методом console.log() зірочки від 1 до 6 штук у вигляді трикутника таким чино
 // *
