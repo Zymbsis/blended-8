@@ -112,8 +112,6 @@
 // }
 // alert('Thank you!');
 
-
-
 //TODO: 7 ===================================
 // При завантаженні сторінки користувачеві пропонується
 // в prompt ввести число. Введення додається до значення
@@ -138,22 +136,22 @@
 // for (let i = max; i >= min; i--) {
 // console.log(i);
 //  if (i % 2 !== 0) {
-//      continue; 
-    
+//      continue;
+
 //  }
-//     total += i; 
+//     total += i;
 // }
 // console.log(`Сума усіх парних: ${total}`);
-const number = [1, 2, 3, 4];
-let result;
-for (let i = 0; i < number.length; i += 1) {
-    if (number[i] % 2 === 0) {
-        result = number[i];
-        break;
-   }
-}
-console.log(result);
-//TODO: 9 ===================================
+// const number = [1, 2, 3, 4];
+// let result;
+// for (let i = 0; i < number.length; i += 1) {
+//     if (number[i] % 2 === 0) {
+//         result = number[i];
+//         break;
+//    }
+// }
+// console.log(result);
+// //TODO: 9 ===================================
 //  Виведіть методом console.log() зірочки від 1 до 6 штук у вигляді трикутника таким чино
 // *
 // **
@@ -199,3 +197,22 @@ console.log(result);
 //   default:
 //     console.log('We hope that this page looks ok!');
 // }
+//====================================================================
+// function countBy(x, n) {
+//   let z = [];
+//   for (i = 1; i <= n; i++) {
+//     z.push(x * i);
+//   }
+//   return z;
+// }
+
+// console.log();
+
+// Create a function with two arguments that will return an array of the first n multiples of x.
+// Assume both the given number and the number of times to count will be positive numbers greater than 0.
+// Return the results as an array or list ( depending on language ).
+
+// Examples
+// countBy(1,10) === [1,2,3,4,5,6,7,8,9,10]
+// countBy(2,5) === [2,4,6,8,10]
+//==================================================================
