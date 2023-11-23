@@ -198,15 +198,23 @@
 //     console.log('We hope that this page looks ok!');
 // }
 //====================================================================
-// function countBy(x, n) {
-//   let z = [];
-//   for (i = 1; i <= n; i++) {
-//     z.push(x * i);
-//   }
-//   return z;
-// }
+let z = [];
+function countBy(x, n) {
+  //   let z = [];
+  for (i = 1; i <= n; i++) {
+    z.push(x * i);
+  }
+  return z;
+}
 
-// console.log();
+console.log(z);
+// countBy(3, 15);
+console.log(z);
+for (i = 1; i <= 10; i++) {
+  z.push(10 * i);
+  return z;
+}
+console.log(z);
 
 // Create a function with two arguments that will return an array of the first n multiples of x.
 // Assume both the given number and the number of times to count will be positive numbers greater than 0.
