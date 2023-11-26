@@ -4,18 +4,18 @@
 // Перевірте, що першим символом цього рядка є буква 'a'.
 // Якщо це так - виведіть 'так', інакше виведіть 'ні'.
 
-const myStr = 'abcd';
-if (myStr.toLowerCase().startsWith('a')) {
-  console.log('yes');
-} else {
-  console.log('no');
-}
-const result = myStr.toLowerCase().startsWith('a') ? 'yes' : 'no';
-console.log(myStr.toLowerCase().startsWith('a'));
-console.log(result);
+// const myStr = 'abcd';
+// if (myStr.toLowerCase().startsWith('a')) {
+//   console.log('yes');
+// } else {
+//   console.log('no');
+// }
+// const result = myStr.toLowerCase().startsWith('a') ? 'yes' : 'no';
+// console.log(myStr.toLowerCase().startsWith('a'));
+// console.log(result);
 
 
-//TODO: 2 ===================================
+// TODO: 2 ===================================
 // У змінній min лежить число від 0 до 60. Визначте у котру чверть години
 // Попадає це число (у першу, другу, третю або четверту). Виведіть значення у консоль, або alert
 
@@ -126,22 +126,23 @@ console.log(result);
 
 // alert(`Загальна сума введених чисел дорівнює ${total}.`);
 
-//* Цикл for директива break і continue
-//TODO: 8 ===================================
-//Напишіть цикл, який виводить у консоль
+// * Цикл for директива break і continue
+// TODO: 8 ===================================
+// Напишіть цикл, який виводить у консоль
 // числа від max до min за спаданням
 // Додайте усі парні числа від min до max
-// const min = 1;
-// const max = 10;
-// let total = 0;
-// for (let i = max; i >= min; i--) {
+const min = 1;
+const max = 10;
+let total = 0;
+for (let i = max; i >= min; i--) {
 // console.log(i);
-//  if (i % 2 !== 0) {
-//      continue;
+ if (i % 2 !== 0) {
+     continue;
 
-//  }
-//     total += i;
-// }
+ }
+    total += i;
+}
+console.log(total)
 // console.log(`Сума усіх парних: ${total}`);
 // const number = [1, 2, 3, 4];
 // let result;
