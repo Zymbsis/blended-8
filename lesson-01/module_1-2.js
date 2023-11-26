@@ -181,6 +181,17 @@
 //fizz якщо ділитися на 5 повертати buzz
 //Якщо ділитися на 3 і на 5 повернути fizzbuzz
 
+const number = 15;
+
+if(number % 3 === 0 && number % 5){
+    console.log(`fizzbuz`)
+}else if(number % 5 === 0)
+    {console.log(`buz`)
+}else if(number % 3 === 0)
+{console.log(`fizz`)
+}
+
+
 //* Конструкція switch
 //TODO: 11 ===================================
 // Змінна num може набувати 4 значення: 1, 2, 3 або 4. Якщо вона має
