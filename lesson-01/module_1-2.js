@@ -113,8 +113,6 @@ console.log(result);
 // }
 // alert('Thank you!');
 
-
-
 //TODO: 7 ===================================
 // При завантаженні сторінки користувачеві пропонується
 // в prompt ввести число. Введення додається до значення
@@ -139,22 +137,22 @@ console.log(result);
 // for (let i = max; i >= min; i--) {
 // console.log(i);
 //  if (i % 2 !== 0) {
-//      continue; 
-    
+//      continue;
+
 //  }
-//     total += i; 
+//     total += i;
 // }
 // console.log(`Сума усіх парних: ${total}`);
-const number = [1, 2, 3, 4];
-let result;
-for (let i = 0; i < number.length; i += 1) {
-    if (number[i] % 2 === 0) {
-        result = number[i];
-        break;
-   }
-}
-console.log(result);
-//TODO: 9 ===================================
+// const number = [1, 2, 3, 4];
+// let result;
+// for (let i = 0; i < number.length; i += 1) {
+//     if (number[i] % 2 === 0) {
+//         result = number[i];
+//         break;
+//    }
+// }
+// console.log(result);
+// //TODO: 9 ===================================
 //  Виведіть методом console.log() зірочки від 1 до 6 штук у вигляді трикутника таким чино
 // *
 // **
@@ -200,3 +198,4 @@ console.log(result);
 //   default:
 //     console.log('We hope that this page looks ok!');
 // }
+//====================================================================
