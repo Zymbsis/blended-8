@@ -131,24 +131,25 @@
 // Напишіть цикл, який виводить у консоль
 // числа від max до min за спаданням
 // Додайте усі парні числа від min до max
-const min = 1;
-const max = 10;
-let total = 0;
-for (let i = max; i >= min; i--) {
-// console.log(i);
- if (i % 2 !== 0) {
-     continue;
+// // const min = 1;
+// // const max = 10;
+// // let total = 0;
+// // for (let i = max; i >= min; i--) {
+// // // console.log(i);
+// //  if (i % 2 !== 0) {
+// //      continue;
 
- }
-    total += i;
-}
-console.log(total)
+// //  }
+// //     total += i;
+// // }
+// // 
 // console.log(`Сума усіх парних: ${total}`);
 // const number = [1, 2, 3, 4];
 // let result;
 // for (let i = 0; i < number.length; i += 1) {
 //     if (number[i] % 2 === 0) {
 //         result = number[i];
+    
 //         break;
 //    }
 // }
@@ -178,6 +179,17 @@ console.log(total)
 // Змінна num може набувати 4 значення: 1, 2, 3 або 4. Якщо вона має
 // значення '1', то у змінну result запишемо 'зима', якщо має значення
 // '2' - 'весна' і так далі. Розв'яжіть завдання через switch-case.
+
+// const num = 2;
+// switch(num) {
+//     case 1: console.log(`Zima`); break;
+//     case 2: console.log(`Vesna`); break;
+//     case 3: console.log(`Leti`); break;
+//     // case 4: console.log(`Osen`)
+//     // default: console.log(`Osen`)
+// }
+
+
 
 //TODO: 12 ===================================
 // Напишіть if..else, що відповідає наступному switch:
