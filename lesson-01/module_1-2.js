@@ -181,9 +181,9 @@
 //fizz якщо ділитися на 5 повертати buzz
 //Якщо ділитися на 3 і на 5 повернути fizzbuzz
 
-const number = 15;
+const number = 5;
 
-if(number % 3 === 0 && number % 5){
+if(number % 3 === 0 && number % 5 ===0){
     console.log(`fizzbuz`)
 }else if(number % 5 === 0)
     {console.log(`buz`)
