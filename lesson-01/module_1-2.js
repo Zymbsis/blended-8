@@ -1,18 +1,19 @@
-//* Розгалуження: if, if...else, else...if
-//TODO: 1 ===================================
-//Даний рядок, що складається із символів, наприклад, 'abcde'.
+// * Розгалуження: if, if...else, else...if
+// TODO: 1 ===================================
+// Даний рядок, що складається із символів, наприклад, 'abcde'.
 // Перевірте, що першим символом цього рядка є буква 'a'.
 // Якщо це так - виведіть 'так', інакше виведіть 'ні'.
 
-// const myStr = 'abcd';
-// if (myStr.toLowerCase().startsWith('a')) {
-//   console.log('yes');
-// } else {
-//   console.log('no');
-// }
-// const result = myStr.toLowerCase().startsWith('a') ? 'yes' : 'no';
-// console.log(myStr.toLowerCase().startsWith('a'));
-// console.log(result);
+const myStr = 'abcd';
+if (myStr.toLowerCase().startsWith('a')) {
+  console.log('yes');
+} else {
+  console.log('no');
+}
+const result = myStr.toLowerCase().startsWith('a') ? 'yes' : 'no';
+console.log(myStr.toLowerCase().startsWith('a'));
+console.log(result);
+
 
 //TODO: 2 ===================================
 // У змінній min лежить число від 0 до 60. Визначте у котру чверть години
