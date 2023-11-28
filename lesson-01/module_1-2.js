@@ -234,7 +234,7 @@
 // }
 //====================================================================
 
-const browser = `Opera`
+const browser = `Firefox`
 if(browser === `Chrome` || `Firefox` || `Safari`){
     console.log(`Okay we support these browsers too'`)
 }else if(browser === `Opera`){
