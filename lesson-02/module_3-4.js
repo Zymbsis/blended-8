@@ -89,7 +89,6 @@
 // return this.goods.includes(product)
 // }
 
-
 // }
 //  console.log(store.hasProduct('rucola'));
 
@@ -102,10 +101,10 @@
 //         let total = 0;
 //         for (const item  of this.price) {
 //             total += item;
-//         } 
+//         }
 //         return total;
 //     }
-   
+
 // }
 
 //  console.log(cart.calculateTotal());
@@ -121,6 +120,15 @@
 //   car: 'Mercedes',
 //   carColor: 'black',
 // };
+// function getBool(obj, key) {
+//   return Object.keys(obj).includes(key);
+// }
+
+// console.log(getBool(obj, 'car')); // true
+
+// function getBool(obj, key) {
+//   return key in obj;
+// }
 
 // console.log(getBool(obj, 'car')); // true
 
@@ -136,6 +144,12 @@
 //   Poly: 160,
 //   Ajax: 1470,
 // };
+// let sum = 0;
+// if (Object.values(salaries) !== 0) {
+//   for (const item of Object.values(salaries)) {
+//     sum += item;
+//   }
+// }
 
 // console.log(sum);
 
@@ -151,7 +165,9 @@
 //   haveCar: true,
 //   merried: false,
 // };
-
+// function changeObject(obj) {
+//   console.log(Object.entries(obj));
+// }
 // changeObject(user);
 
 //TODO:============task-08======================================================
