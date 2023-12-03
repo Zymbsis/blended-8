@@ -1,17 +1,6 @@
 // ! Масиви цикли for і for of
 //TODO:=========task-01=================
 // Створіть масив styles з елементами «Джаз» та «Блюз».
-
-// const styles = ["Jazz", "Blues"];
-// styles.push("Rock-and-Roll");
-// // styles[1] = "Classic";
-// const index = styles.indexOf("Blues");
-// // styles[index] = "Classic";
-// console.log(styles.shift());
-// console.log(styles.unshift("Rap", "Reggy"));
-// console.log(styles);
-// console.log(index);
-
 // Додайте "Рок-н-рол" в кінець.
 // Замініть значення "Блюз" на "Класика".
 // Видалить перший елемент масиву і виведіть його в консоль.
@@ -20,57 +9,20 @@
 //TODO:=========task-02=================
 //Перетворити рядок, що містить слова, розділені комами, в масив слів і вивести кожне слово в окремому рядку.
 // const str = 'JavaScript, HTML, CSS, React';
-// const strArray = str.split(", ");
-// console.log(strArray);
-// for (const word of strArray) {
-//     console.log(word);
-// }
 
 //TODO:=========task-03=================
 // Знайти кількість слів у рядку, використовуючи методи масивів та цикл for...of.
 // const message = 'JavaScript is a popular programming language.';
-// const wordArray = message.split(" ").length;
-// const wordArray = message.split(" ");
-// console.log(wordArray);
-// let result = 0;
-// for (const word of wordArray) {
-//     result += 1;
-// }
-// console.log(result);
-
-// function amountWords(str) {
-//     const wordArray = str.split(" ");
-// let result = 0;
-// for (const word of wordArray) {
-//     result += 1;
-// }
-// return result;
-// }
-
-// console.log(amountWords(message));
 
 //TODO:=========task-04=================
 // Об'єднати масив слів в рядок, розділений комами та пробілами.
-// const words = ["JavaScript", "HTML", "CSS", "React"];
-
-// const result = words.join(", ");
-// console.log(result);
+// const words = ['JavaScript', 'HTML', 'CSS', 'React'];
 
 //TODO:=========task-05=================
-// Знайти всі елементи масиву, що містять задану підстроку, та об'єднати їх у новий масив, після чого вивести у консоль лог
-//  повідомлення "Масив елементів, що містять підстроку substring: ...".Результат повинен бути розділений комами та пробілами.(використати indexOf)
+// Знайти всі елементи масиву, що містять задану підстроку, та об'єднати їх у новий масив, після чого вивести у консоль лог повідомлення "Масив елементів, що містять підстроку substring: ..." .Результат повинен бути розділений комами та пробілами.(використати indexOf)
 
-// const stringArray = ["JavaScript", "HTML", "CSS", "React"];
-// const substring = "S";
-// const newArray = [];
-// for (const word of stringArray) {
-// if (word.indexOf(substring) !== -1) {
-//   if (word.includes(substring)) {
-//     newArray.push(word);
-//   }
-// }
-// const joinedArray = newArray.join(", ");
-// console.log(newArray);
+// const stringArray = ['JavaScript', 'HTML', 'CSS', 'React'];
+// const substring = 'S';
 
 // console.log(
 //   `Масив елементів, що містять підстроку ${substring} : ${joinedArray}`
@@ -79,51 +31,17 @@
 //TODO:=========task-06=================
 // Перевірити, чи містить масив заданий елемент. Якщо містить, видалити його, якщо ні - додати в кінець масиву.
 //  const array = ['JavaScript', 'HTML', 'CSS', 'SS'];
-// const elem = 'SSL';
-
-// function deleteWord(array, value) {
-// 	const index = array.indexOf(value);
-// 	if (index !== -1) {
-// 		array.splice(index, 1);
-// 	}
-// 	else {
-// 		array.push(value);
-// 	}
-// 	return array
-// }
-
-// console.log(deleteWord(array, elem));
+//  const elem = 'SS';
 
 //TODO:============task-07==============
 // Напишіть функцію min(a, b), яка повертає
 // менше з чисел a, b
 // Потрібно додати перевірку, що функція отримує числа
 
-// function min(a, b) {
-//     if (typeof a !== "number" || typeof b !== "number") {
-//         return "arg is not a number";
-//     }
-//     if (a < b) {
-//         return a;
-
-//     } else {
-//         return b;
-//     }
-// }
-// console.log(min(10,"hello"))
-
 //TODO:=============task-08=================
 // напиши функцію яка сумуватиме сусідні числа і пушити в новий масив
 
 // const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
-
-// function sumAdjacentNumbers(someArr) {
-//   let newArray = [];
-//   for (let i = 0; i < someArr.length - 1; i++) {
-//     newArray.push(someArr[i] + someArr[i + 1]);
-//   }
-//   return newArray;
-// }
 
 // const result = sumAdjacentNumbers(someArr);
 // console.log(result); // [33, 45, 39, 17, 25, 27, 29]
@@ -157,39 +75,40 @@
 // Послідовно:
 // 1 додати поле mood зі значенням 'happy'
 // 2 замінити hobby на 'skydiving'
-// const person = {
-//   userName: "Toto",
-//   hobby: "sport",
-//   age: 27,
-//   greet() {
-//     console.log(this.userName);
-//   },
-// };
-// person.mood = "happy";
 
-// person.hobby = "skydiving";
-// console.log(person);
 //TODO:============task-02==============================================
 // Створіть об'єкт "прямокутник" з властивостями "довжина" та "ширина". Напишіть метод "calculateArea", який буде обчислювати площу прямокутника на основі його довжини та ширини.
 
-// const square = {
-//   length: 20,
-//   width: 10,
-//   calculateArea() {
-//     return this.length * this.width;
-//   },
-// };
 // console.log(square.calculateArea());
 
 //TODO:============task-03==============================================
 // Створіть об'єкт "магазин" зі списком товарів. Напишіть метод "hasProduct", який буде перевіряти, чи є певний товар в наявності на складі магазину.
+// const store = {
+//     goods:["apple", "banan","kiwi","tomato"],
+// hasProduct  (product){
+// return this.goods.includes(product)
+// }
 
-// console.log(store.hasProduct('apple'));
+
+// }
+//  console.log(store.hasProduct('rucola'));
 
 //TODO:============task-04==============================================
 // 4. Створіть об'єкт "кошик" зі списком товарів та їх цін. Напишіть метод "calculateTotal", який буде обчислювати загальну суму товарів у кошику.
+// const cart = {
+//     goods:["apple", "banan","kiwi","tomato"],
+//     price:[30,50,45,90],
+//     calculateTotal (){
+//         let total = 0;
+//         for (const item  of this.price) {
+//             total += item;
+//         } 
+//         return total;
+//     }
+   
+// }
 
-// console.log(cart.calculateTotal());
+//  console.log(cart.calculateTotal());
 
 //! Перебір об'єктів: for...in і методи Object.keys|values|entries
 //TODO:============task-05======================================================
