@@ -157,10 +157,28 @@
 // Послідовно:
 // 1 додати поле mood зі значенням 'happy'
 // 2 замінити hobby на 'skydiving'
+// const person = {
+//   userName: "Toto",
+//   hobby: "sport",
+//   age: 27,
+//   greet() {
+//     console.log(this.userName);
+//   },
+// };
+// person.mood = "happy";
 
+// person.hobby = "skydiving";
+// console.log(person);
 //TODO:============task-02==============================================
 // Створіть об'єкт "прямокутник" з властивостями "довжина" та "ширина". Напишіть метод "calculateArea", який буде обчислювати площу прямокутника на основі його довжини та ширини.
 
+// const square = {
+//   length: 20,
+//   width: 10,
+//   calculateArea() {
+//     return this.length * this.width;
+//   },
+// };
 // console.log(square.calculateArea());
 
 //TODO:============task-03==============================================
