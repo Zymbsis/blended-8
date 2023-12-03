@@ -80,7 +80,7 @@
 // Перевірити, чи містить масив заданий елемент. Якщо містить, видалити його, якщо ні - додати в кінець масиву.
 //  const array = ['JavaScript', 'HTML', 'CSS', 'SS'];
 // const elem = 'SSL';
- 
+
 // function deleteWord(array, value) {
 // 	const index = array.indexOf(value);
 // 	if (index !== -1) {
@@ -99,23 +99,31 @@
 // менше з чисел a, b
 // Потрібно додати перевірку, що функція отримує числа
 
-function min(a, b) {
-    if (typeof a !== "number" || typeof b !== "number") {
-        return "arg is not a number";
-    }
-    if (a < b) {
-        return a;
-        
-    } else {
-        return b;
-    }
-}
-console.log(min(10,"hello"))
+// function min(a, b) {
+//     if (typeof a !== "number" || typeof b !== "number") {
+//         return "arg is not a number";
+//     }
+//     if (a < b) {
+//         return a;
+
+//     } else {
+//         return b;
+//     }
+// }
+// console.log(min(10,"hello"))
 
 //TODO:=============task-08=================
 // напиши функцію яка сумуватиме сусідні числа і пушити в новий масив
 
 // const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
+
+// function sumAdjacentNumbers(someArr) {
+//   let newArray = [];
+//   for (let i = 0; i < someArr.length - 1; i++) {
+//     newArray.push(someArr[i] + someArr[i + 1]);
+//   }
+//   return newArray;
+// }
 
 // const result = sumAdjacentNumbers(someArr);
 // console.log(result); // [33, 45, 39, 17, 25, 27, 29]
