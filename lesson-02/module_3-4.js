@@ -181,13 +181,22 @@
 //   title: 'My menu',
 // };
 
+// function multiplyNumeric(obj) {
+//   for (const key in obj) {
+//     if (obj.hasOwnProperty(key) && !isNaN(obj[key])) {
+//       obj[key] *= 2;
+//     }
+//   }
+//   return obj;
+// }
+
 // console.log(multiplyNumeric(menu));
 
 // після виклику функції
 // menu = {
 //   width: 400,
 //   height: 600,
-//   title: 'My menu',
+//   title: 'My menu'
 // };
 
 //TODO:==========task-09=============
@@ -195,7 +204,15 @@
 // новий об'єкт без зазначених параметрів
 // Очікуваний результат ({a: 1, b: 2, c: 3}, 'b', 'a') => {c: 3}
 
-// console.logs(updateObject({ a: 1, b: 2, c: 3 }, 'b', 'a')); // {c: 3}
+// function updateObject(obj, ...removeKeys) {
+//   let newObj = {...obj};
+//   for (const key of removeKeys) {
+//     delete newObj[key];
+//   }
+//   return newObj;
+// }
+
+// console.log(updateObject({ a: 1, b: 2, c: 3 }, 'b', 'a')); // {c: 3}
 
 //! Робота з масивом об'єктів
 //TODO:============task-10==============================
