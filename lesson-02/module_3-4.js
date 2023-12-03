@@ -1,6 +1,17 @@
 // ! Масиви цикли for і for of
 //TODO:=========task-01=================
 // Створіть масив styles з елементами «Джаз» та «Блюз».
+
+const styles = ["Jazz", "Blues"];
+styles.push("Rock-and-Roll");
+// styles[1] = "Classic";
+const index = styles.indexOf("Blues");
+// styles[index] = "Classic";
+console.log(styles.shift());
+console.log(styles.unshift("Rap", "Reggy"));
+console.log(styles);
+console.log(index);
+
 // Додайте "Рок-н-рол" в кінець.
 // Замініть значення "Блюз" на "Класика".
 // Видалить перший елемент масиву і виведіть його в консоль.
