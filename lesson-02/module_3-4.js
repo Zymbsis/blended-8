@@ -2,15 +2,15 @@
 //TODO:=========task-01=================
 // Створіть масив styles з елементами «Джаз» та «Блюз».
 
-const styles = ["Jazz", "Blues"];
-styles.push("Rock-and-Roll");
-// styles[1] = "Classic";
-const index = styles.indexOf("Blues");
-// styles[index] = "Classic";
-console.log(styles.shift());
-console.log(styles.unshift("Rap", "Reggy"));
-console.log(styles);
-console.log(index);
+// const styles = ["Jazz", "Blues"];
+// styles.push("Rock-and-Roll");
+// // styles[1] = "Classic";
+// const index = styles.indexOf("Blues");
+// // styles[index] = "Classic";
+// console.log(styles.shift());
+// console.log(styles.unshift("Rap", "Reggy"));
+// console.log(styles);
+// console.log(index);
 
 // Додайте "Рок-н-рол" в кінець.
 // Замініть значення "Блюз" на "Класика".
@@ -20,10 +20,35 @@ console.log(index);
 //TODO:=========task-02=================
 //Перетворити рядок, що містить слова, розділені комами, в масив слів і вивести кожне слово в окремому рядку.
 // const str = 'JavaScript, HTML, CSS, React';
+// const strArray = str.split(", ");
+// console.log(strArray);
+// for (const word of strArray) {
+//     console.log(word);
+// }
 
 //TODO:=========task-03=================
 // Знайти кількість слів у рядку, використовуючи методи масивів та цикл for...of.
 // const message = 'JavaScript is a popular programming language.';
+// const wordArray = message.split(" ").length;
+// const wordArray = message.split(" ");
+// console.log(wordArray);
+// let result = 0;
+// for (const word of wordArray) {
+//     result += 1;
+// }
+// console.log(result);
+
+// function amountWords(str) {
+//     const wordArray = str.split(" ");
+// let result = 0;
+// for (const word of wordArray) {
+//     result += 1;
+// }
+// return result;
+// }
+
+// console.log(amountWords(message));
+
 
 //TODO:=========task-04=================
 // Об'єднати масив слів в рядок, розділений комами та пробілами.
