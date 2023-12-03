@@ -49,16 +49,28 @@
 
 // console.log(amountWords(message));
 
-
 //TODO:=========task-04=================
 // Об'єднати масив слів в рядок, розділений комами та пробілами.
-// const words = ['JavaScript', 'HTML', 'CSS', 'React'];
+// const words = ["JavaScript", "HTML", "CSS", "React"];
+
+// const result = words.join(", ");
+// console.log(result);
 
 //TODO:=========task-05=================
-// Знайти всі елементи масиву, що містять задану підстроку, та об'єднати їх у новий масив, після чого вивести у консоль лог повідомлення "Масив елементів, що містять підстроку substring: ..." .Результат повинен бути розділений комами та пробілами.(використати indexOf)
+// Знайти всі елементи масиву, що містять задану підстроку, та об'єднати їх у новий масив, після чого вивести у консоль лог
+//  повідомлення "Масив елементів, що містять підстроку substring: ...".Результат повинен бути розділений комами та пробілами.(використати indexOf)
 
-// const stringArray = ['JavaScript', 'HTML', 'CSS', 'React'];
-// const substring = 'S';
+// const stringArray = ["JavaScript", "HTML", "CSS", "React"];
+// const substring = "S";
+// const newArray = [];
+// for (const word of stringArray) {
+// if (word.indexOf(substring) !== -1) {
+//   if (word.includes(substring)) {
+//     newArray.push(word);
+//   }
+// }
+// const joinedArray = newArray.join(", ");
+// console.log(newArray);
 
 // console.log(
 //   `Масив елементів, що містять підстроку ${substring} : ${joinedArray}`
