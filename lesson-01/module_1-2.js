@@ -234,11 +234,11 @@
 // }
 //====================================================================
 
-const browser = `Firefox`
-if(browser === `Chrome` || `Firefox` || `Safari`){
-    console.log(`Okay we support these browsers too'`)
-}else if(browser === `Opera`){
-    console.log(`We hope that this page looks ok!`)
-}else {
-    console.log(`not servise`)
-}
+// const browser = `Firefox`
+// if(browser === `Chrome` || `Firefox` || `Safari`){
+//     console.log(`Okay we support these browsers too'`)
+// }else if(browser === `Opera`){
+//     console.log(`We hope that this page looks ok!`)
+// }else {
+//     console.log(`not servise`)
+// }
