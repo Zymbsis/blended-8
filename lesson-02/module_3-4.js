@@ -22,11 +22,33 @@
 //TODO:=========task-02=================
 //Перетворити рядок, що містить слова, розділені комами, в масив слів і вивести кожне слово в окремому рядку.
 // const str = 'JavaScript, HTML, CSS, React';
+// const arr = str.split(`, `)
+// console.log(arr)
+// for(const item of arr){
+//     console.log(item)
+// }
+
 
 //TODO:=========task-03=================
 // Знайти кількість слів у рядку, використовуючи методи масивів та цикл for...of.
-// const message = 'JavaScript is a popular programming language.';
+const message = 'JavaScript is a popular programming language.';
+// const item = message.split(``)
+// let result = 0
+// for(const word of item){
+//     result += 1
+// }
+// console.log(result)
 
+function amountWord(str) {
+    const item = str.split(``)
+let result = 0
+for(const word of item){
+    result += 1
+}
+return result
+}
+
+console.log(amountWord(message))
 //TODO:=========task-04=================
 // Об'єднати масив слів в рядок, розділений комами та пробілами.
 // const words = ['JavaScript', 'HTML', 'CSS', 'React'];
