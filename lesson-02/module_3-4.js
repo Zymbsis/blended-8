@@ -155,9 +155,27 @@
 // 1 додати поле mood зі значенням 'happy'
 // 2 замінити hobby на 'skydiving'
 
+// const human = {
+//     userName: `Ruslan`,
+//     hobby: `sport`,
+//     age: 37,
+//     greet (){
+//         console.log(this.userName)
+//     }
+// }
+//  human.mood = `happy`
+//  human.hobby = `skydiving`
+//  console.log(human)
 //TODO:============task-02==============================================
 // Створіть об'єкт "прямокутник" з властивостями "довжина" та "ширина". Напишіть метод "calculateArea", який буде обчислювати площу прямокутника на основі його довжини та ширини.
 
+// const square = {
+//     widtn: 10,
+//     length: 20,
+//     calculateArea(){
+//         return this.widtn * this.length
+//     }
+// }
 // console.log(square.calculateArea());
 
 
@@ -200,11 +218,11 @@
 //   car: 'Mercedes',
 //   carColor: 'black',
 // };
-// function getBool(obj, key) {
-//   return Object.keys(obj).includes(key);
-// }
+// // function getBool(obj, key) {
+// //   return Object.keys(obj).includes(key);
+// // }
 
-// console.log(getBool(obj, 'car')); // true
+// // console.log(getBool(obj, 'car')); // true
 
 // function getBool(obj, key) {
 //   return key in obj;
