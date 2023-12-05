@@ -290,6 +290,7 @@
 
 // console.log(multiplyNumeric(menu));
 
+
 // після виклику функції
 // menu = {
 //   width: 400,
