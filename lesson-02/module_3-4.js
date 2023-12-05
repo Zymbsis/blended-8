@@ -31,7 +31,7 @@
 
 //TODO:=========task-03=================
 // Знайти кількість слів у рядку, використовуючи методи масивів та цикл for...of.
-const message = 'JavaScript is a popular programming language.';
+// const message = 'JavaScript is a popular programming language.';
 // const item = message.split(``)
 // let result = 0
 // for(const word of item){
@@ -39,20 +39,22 @@ const message = 'JavaScript is a popular programming language.';
 // }
 // console.log(result)
 
-function amountWord(str) {
-    const item = str.split(``)
-let result = 0
-for(const word of item){
-    result += 1
-}
-return result
-}
+// function amountWord(str) {
+//     const item = str.split(``)
+// let result = 0
+// for(const word of item){
+//     result += 1
+// }
+// return result
+// }
+// console.log(amountWord(message))
 
-console.log(amountWord(message))
+
 //TODO:=========task-04=================
 // Об'єднати масив слів в рядок, розділений комами та пробілами.
 // const words = ['JavaScript', 'HTML', 'CSS', 'React'];
-
+// const item = words.join(`, `)
+// console.log(item)
 
 
 //TODO:=========task-05=================
@@ -60,11 +62,18 @@ console.log(amountWord(message))
 
 // const stringArray = ['JavaScript', 'HTML', 'CSS', 'React'];
 // const substring = 'S';
+// // console.log(
+// //   `Масив елементів, що містять підстроку ${substring} : ${joinedArray}`
+// // );
 
-// console.log(
-//   `Масив елементів, що містять підстроку ${substring} : ${joinedArray}`
-// );
-
+// const newArray = []
+// for(const word of stringArray) {
+//     if(word.includes(substring) !== -1){
+//         newArray.push(word)
+//     }
+// }
+// const joineArray = newArray.join(`, `)
+// console.log(newArray)
 //TODO:=========task-06=================
 // Перевірити, чи містить масив заданий елемент. Якщо містить, видалити його, якщо ні - додати в кінець масиву.
 //  const array = ['JavaScript', 'HTML', 'CSS', 'SS'];
