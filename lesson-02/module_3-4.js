@@ -78,6 +78,18 @@
 // Перевірити, чи містить масив заданий елемент. Якщо містить, видалити його, якщо ні - додати в кінець масиву.
 //  const array = ['JavaScript', 'HTML', 'CSS', 'SS'];
 //  const elem = 'SS';
+// function deleteWord (array, value) {
+//     const index = array.indexoff(value)
+// if (index !== -1) {
+//     array.splice(index, 1)
+// }
+// else{
+//     array.push(value)
+// }
+// return(array)
+// }
+// console.log(deleteWord (array, elem))
+
 
 //TODO:============task-07==============
 // Напишіть функцію min(a, b), яка повертає
