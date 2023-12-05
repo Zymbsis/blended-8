@@ -5,12 +5,17 @@
 // Замініть значення "Блюз" на "Класика".
 // Видалить перший елемент масиву і виведіть його в консоль.
 // Вставте «Реп» і «Реггі» на початок масиву.
- const styles = [`dgaz`, `Bluz`]
- styles.push(`Rook`)
-//  styles[1] = `Klasuk`
-const index = styles.indexOf(`Bluz`)
-console.log(styles[index] = `Klasuk`)
- console.log(styles)
+//  const styles = [`dgaz`, `Bluz`]
+//  styles.push(`Rook`)
+// //  styles[1] = `Klasuk`
+// const index = styles.indexOf(`Bluz`)
+// // console.log(styles[index] = `Klasuk`)
+// //  console.log(styles)
+// //  console.log(styles.shift())
+//  styles.unshift(`Reggi`, `Rap`)
+//  console.log(styles)
+ 
+//  console.log(styles)
 // console.log(index)
 
 
