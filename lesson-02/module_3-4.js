@@ -372,6 +372,6 @@
 // const x = () => {}
 
 
-const y = (a, s, d) => a * s + d
+// const y = (a, s, d) => a * s + d
 
-console.log(y(2, 2,16))
+// console.log(y(2, 2,16))
