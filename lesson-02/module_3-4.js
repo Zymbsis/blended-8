@@ -355,15 +355,16 @@
 // Необхідно створити новий масив об'єктів, що буде містити всі об'єкти з обох масивів, але без дублів.
 // Тобто об'єкти з однаковим значенням ключа "id" повинні бути об'єднані в один об'єкт.
 
-// const arr1 = [
-//   { id: 1, name: 'John' },
-//   { id: 2, name: 'Mary' },
-//   { id: 3, name: 'Bob' },
-// ];
-// const arr2 = [
-//   { id: 2, name: 'Mary' },
-//   { id: 4, name: 'Jane' },
-//   { id: 5, name: 'Tom' },
-// ];
 
-// console.log(uniq(arr1, arr2));
+const arr1 = [
+  { id: 1, name: 'John' },
+  { id: 2, name: 'Mary' },
+  { id: 3, name: 'Bob' },
+];
+const arr2 = [
+  { id: 2, name: 'Mary' },
+  { id: 4, name: 'Jane' },
+  { id: 5, name: 'Tom' },
+];
+
+console.log(uniq(arr1, arr2));
