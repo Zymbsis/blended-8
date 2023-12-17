@@ -170,6 +170,29 @@ const result = performOperation(3, 3, callbackFunction);
 // ! this
 //TODO:=========task-01=================
 // Створити об'єкт, який представляє користувача. У об'єкті повинні бути наступні поля: ім'я, прізвище, вік, email та метод, який виводить повну інформацію про користувача.
+// console.log(this);
+
+// window.console.log("Hello");
+
+const user = {
+  name: "Andrty",
+  lastName: "Tronovis",
+  age: 40,
+  email: "fgr@mail.com",
+
+  getInfo() {
+    console.log(this);
+  },
+};
+
+// user.getInfo();
+
+// const newUser = Object.create(user);
+// newUser.name = "Roma";
+
+// console.log(newUser);
+
+// newUser.getInfo();
 
 //TODO:=========task-02=================
 // Для обьекта "user", написати метод для зміни ім'я або прізвища(змінити можна лише якесь з цих полів, змінювати або додавати нові потрібно заборонити) з перевіркою на валідність даних(Перша літера має бути у верхньому реєстрі, довжина слова не менше 3 літер)
@@ -206,11 +229,13 @@ const result = performOperation(3, 3, callbackFunction);
 //  Викликати метод user.info() таким чином, щоб він вивів результатом  ({name: 'Bob', lactName: 'Lasso',age: 50, email: 'BodLasso@gmail.com'})
 
 // const obj = {
-//   name: 'Bob',
-//   lastName: 'Lasso',
+//   name: "Bob",
+//   lastName: "Lasso",
 //   age: 50,
-//   email: 'BodLasso@gmail.com',
+//   email: "BodLasso@gmail.com",
 // };
+
+// user.getInfo.call(obj);
 
 //TODO:=========task-05=================
 //  Викличте функцію showFullName у контексті об'єкта user
@@ -230,7 +255,7 @@ const result = performOperation(3, 3, callbackFunction);
 //   callback();
 // }
 
-// callAction(product.showPrice);
+// callAction(product.showPrice.bind(product));
 
 //! class
 //TODO:=================task-01=============================
@@ -250,20 +275,75 @@ const result = performOperation(3, 3, callbackFunction);
 
 // #### Також потрібно створити клас `MenuItem`, який містить властивості `name` та `price` для предметів замовлення.
 
-// Create menu items
-// const item1 = new MenuItem('Burger', 10);
-// const item2 = new MenuItem('Fries', 5);
-// const item3 = new MenuItem('Drink', 2);
+// class Order {
+//   #tableNumber;
+//   #items;
+//   #isPaid;
 
-// Create an order
+//   constructor(tableNumber) {
+//     this.#tableNumber = tableNumber;
+//     this.#items = [];
+//     this.#isPaid = false;
+//   }
+
+//   calculateTotal() {
+//     let total = 0;
+//     for (let item of this.#items) {
+//       total += item.price;
+//     }
+//     return total;
+//   }
+
+//   markAsPaid() {
+//     this.#isPaid = true;
+//   }
+
+//   get tableNumber() {
+//     return this.#tableNumber;
+//   }
+
+//   set tableNumber(tableNumber) {
+//     this.#tableNumber = tableNumber;
+//   }
+
+//   get isPaid() {
+//     return this.#isPaid;
+//   }
+
+//   addItem(item) {
+//     this.#items.push(item);
+//   }
+
+//   removeItem(item) {
+//     const index = this.#items.indexOf(item);
+//     if (index !== -1) {
+//       this.#items.splice(index, 1);
+//     }
+//   }
+// }
+
+// class MenuItem {
+//   constructor(name, price) {
+//     this.name = name;
+//     this.price = price;
+//   }
+// }
+// // Create menu items
+// const item1 = new MenuItem("Burger", 10);
+// const item2 = new MenuItem("Fries", 5);
+// const item3 = new MenuItem("Drink", 2);
+
+// // Create an order
 // const order = new Order(1);
 
-// Add items to the order
+// // Add items to the order
 // order.addItem(item1);
 // order.addItem(item2);
 // order.addItem(item3);
 
-// Calculate the total and mark the order as paid
+// order.removeItem(item2);
+
+// // Calculate the total and mark the order as paid
 // const total = order.calculateTotal();
 // order.markAsPaid();
 
