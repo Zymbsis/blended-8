@@ -162,6 +162,8 @@ const result = performOperation(3, 3, callbackFunction);
 
 // const arr = [1, 2, 3, 4, 5];
 
+// const averageValue = (arr) =>
+//   arr.reduce((acc, elem) => acc + elem / arr.length, 0);
 // const res = averageValue(arr);
 // console.log(res);
 
