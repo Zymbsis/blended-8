@@ -125,12 +125,23 @@ const array = [1, 2, 3, 4, 5, 2]
 //TODO:=========task-03=================
 // Дано масив об'єктів {name: "John", age: 27}, {name: "Jane", age: 31}, {name: "Bob", age: 19}. Перевірте, чи є хоча б один об'єкт з віком менше 20 років. Очікуваний результат: true.
 
-// const people = [
-//   { name: "John", age: 27 },
-//   { name: "Jane", age: 31 },
-//   { name: "Bob", age: 19 },
-// ];
+const people = [
+  { name: "John", age: 27 },
+  { name: "Jane", age: 31 },
+  { name: "Bob", age: 19 },
+];
 
+// let sort = people.sort((x2, x1) => 
+// x2.age - x1.age)
+// console.log(sort)
+// let some = people.some((elem) => {
+//   return elem.age < 20
+// })
+// console.log(some)
+// let every = people.every((elem)=>{
+//   return elem.age > 17
+// })
+// console.log(every)
 // const checkAge = (arr) => arr.some((elem) => elem.age > 20);
 // const res = checkAge(people);
 // console.log(res);
