@@ -1,16 +1,29 @@
 //! Callback
 //TODO:============task-01=========================
 // Напишіть функцію, яка приймає два числа і колбек-функцію. Функція повинна помножити числа між собою та передати результат дії до колбек-функції. Колбек-функція повинна, у разі, якщо, це число є парним - помножити це число на себе, якщо ні - взяти квадратний корінь з цього числа, та вивести результат у консоль лог.
-function performOperation(a, b, callback) {
-  return callback(a * b);
-}
-function callbackFunction(num) {
-  return num % 2 === 0 ? Math.pow(num, 2) : Math.sqrt(num);
-}
-const result = performOperation(3, 3, callbackFunction);
+// function performOperation(a, b, callback) {
+//   return callback(a * b);
+// }
+// function callbackFunction(num) {
+//   return num % 2 === 0 ? Math.pow(num, 2) : Math.sqrt(num);
+// }
+// const result = performOperation(3, 3, callbackFunction);
 
 // console.log(result);
 
+function getNumer(a, b, callback){
+  return callback (a * b)
+}
+
+function callbackFunction (sum) {
+if(sum % 2 ===0){
+  return sum **2
+}else if( sum % 2 !== 0) {
+  return Math.pow(sum, 2)
+}
+}
+const result = getNumer(6, 9, callbackFunction)
+console.log(result)
 //TODO:============task-02=========================
 // Напишіть функцію, яка приймає масив і колбек-функцію. Функція повинна повернути перший елемент масиву,
 //який задовольняє умову, визначену в колбек - функції. Якщо такого елементу немає, функція
