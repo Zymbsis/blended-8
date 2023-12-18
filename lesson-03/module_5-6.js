@@ -79,18 +79,31 @@ const array = [1, 2, 3, 4, 5, 2]
 
 // let min = array.reduce((acc, item)=>Math.min(acc, item))
 // console.log(min)
-let sort = array.sort((x1, x2)=>{
-  return x2 - x1
-})
-console.log(sort)
+// let sort = array.sort((x1, x2)=>{
+//   return x2 - x1
+// })
+// console.log(sort)
 //TODO:=========task-02=================
 // Дано масив об'єктів {id: 1, values: [1, 2, 3]}, {id: 2, values: [4, 5, 6]}, {id: 3, values: [7, 8, 9]}. Створіть новий масив, що містить всі значення з масивів values кожного об'єкту, збережених в одному масиві. Очікуваний результат: [1, 2, 3, 4, 5, 6, 7, 8, 9].
 
-// const data = [
-//   { id: 1, values: [1, 2, 3] },
-//   { id: 2, values: [4, 5, 6] },
-//   { id: 3, values: [7, 8, 9] },
-// ];
+const data = [
+  { id: 1, values: [1, 2, 3] },
+  { id: 2, values: [4, 5, 6] },
+  { id: 3, values: [7, 8, 9] },
+];
+const result = data.flatMap((item, values)=> 
+   item.values
+)
+console.log(result)
+//  let max = result.reduce((acc, item)=>Math.max(acc, item))
+// console.log(max)
+// let sort = result.sort((x1, x2) => x2- x1)
+// console.log(sort)
+let sum = 0
+for(let i = 0; i < result.length; i ++ ){
+  sum += result[i]
+}
+console.log(sum)
 
 // const flatArr = (arr) => arr.flatMap((elem) => elem.values);
 // const res = flatArr(data);
