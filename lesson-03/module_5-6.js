@@ -11,25 +11,26 @@
 
 // console.log(result);
 
-function getNumer(a, b, callback){
-  return callback (a * b)
-}
+// function getNumer(a, b, callback){
+//   return callback (a * b)
+// }
 
-function callbackFunction (sum) {
-if(sum % 2 ===0){
-  return sum **2
-}else if( sum % 2 !== 0) {
-  return Math.pow(sum, 2)
-}
-}
-const result = getNumer(1, 3, callbackFunction)
-console.log(result)
+// function callbackFunction (sum) {
+// if(sum % 2 ===0){
+//   return sum **2
+// }else if( sum % 2 !== 0) {
+//   return Math.pow(sum, 2)
+// }
+// }
+// const result = getNumer(1, 3, callbackFunction)
+// console.log(result)
 //TODO:============task-02=========================
 // Напишіть функцію, яка приймає масив і колбек-функцію. Функція повинна повернути перший елемент масиву,
 //який задовольняє умову, визначену в колбек - функції. Якщо такого елементу немає, функція
 // повинна повернути null. Також необхідно написати 2 різні колбеки. При використанні першого колбеку має
 // повертатись перше парне число. При використанні другого - має повертатись перше слово у масиві, що починається з літери
 // "O" у будь - якому реєстрі.
+
 // function findElement(arr, callback) {
 //     let result = null;
 //     for (const item of arr) {
@@ -59,6 +60,10 @@ console.log(result)
 // const getNewArray = (arr) => arr.map((elem) => elem ** 2);
 // const res = getNewArray([1, 2, 3, 4, 5]);
 // console.log(res);
+
+const array = [1, 2, 3, 4, 5]
+const getArray = array.map(elem=>elem ** 2)
+console.log(getArray)
 
 //TODO:=========task-02=================
 // Дано масив об'єктів {id: 1, values: [1, 2, 3]}, {id: 2, values: [4, 5, 6]}, {id: 3, values: [7, 8, 9]}. Створіть новий масив, що містить всі значення з масивів values кожного об'єкту, збережених в одному масиві. Очікуваний результат: [1, 2, 3, 4, 5, 6, 7, 8, 9].
