@@ -73,12 +73,16 @@ const array = [1, 2, 3, 4, 5, 2]
 //    max = Math.max(array[i], max)
 //  }
 //  console.log(max)
-let max = array.reduce((acc, item) => Math.max(acc, item))
+// let max = array.reduce((acc, item) => Math.max(acc, item))
 
-console.log(max)
+// console.log(max)
 
-let min = array.reduce((acc, item)=>Math.min(acc, item))
-console.log(min)
+// let min = array.reduce((acc, item)=>Math.min(acc, item))
+// console.log(min)
+let sort = array.sort((x1, x2)=>{
+  return x2 - x1
+})
+console.log(sort)
 //TODO:=========task-02=================
 // Дано масив об'єктів {id: 1, values: [1, 2, 3]}, {id: 2, values: [4, 5, 6]}, {id: 3, values: [7, 8, 9]}. Створіть новий масив, що містить всі значення з масивів values кожного об'єкту, збережених в одному масиві. Очікуваний результат: [1, 2, 3, 4, 5, 6, 7, 8, 9].
 
