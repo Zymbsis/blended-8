@@ -61,7 +61,20 @@
 // const res = getNewArray([1, 2, 3, 4, 5]);
 // console.log(res);
 
-const array = [1, 2, 3, 4, 5, 2]
+// const array = [1, 2, 3, 4, 5, 2]
+
+// let result = array.find((item)=>{
+//   return item % 2 === 0 && item > 3
+// })
+// console.log(result)
+
+
+const array = [1, 2, 3, 4, 5, 6, 7, 8]
+
+let result = array.filter((item)=>{
+  return item % 2 === 0 && item > 3
+})
+console.log(result)
 // const getArray = array.map(elem=>elem ** 2)
 // console.log(getArray)
 // const getSum = array.reduce((acc, item)=> {
@@ -125,11 +138,11 @@ const array = [1, 2, 3, 4, 5, 2]
 //TODO:=========task-03=================
 // Дано масив об'єктів {name: "John", age: 27}, {name: "Jane", age: 31}, {name: "Bob", age: 19}. Перевірте, чи є хоча б один об'єкт з віком менше 20 років. Очікуваний результат: true.
 
-const people = [
-  { name: "John", age: 27 },
-  { name: "Jane", age: 31 },
-  { name: "Bob", age: 19 },
-];
+// const people = [
+//   { name: "John", age: 27 },
+//   { name: "Jane", age: 31 },
+//   { name: "Bob", age: 19 },
+// ];
 
 // let sort = people.sort((x2, x1) => 
 // x2.age - x1.age)
