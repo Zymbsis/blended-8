@@ -22,7 +22,7 @@ if(sum % 2 ===0){
   return Math.pow(sum, 2)
 }
 }
-const result = getNumer(6, 9, callbackFunction)
+const result = getNumer(1, 3, callbackFunction)
 console.log(result)
 //TODO:============task-02=========================
 // Напишіть функцію, яка приймає масив і колбек-функцію. Функція повинна повернути перший елемент масиву,
