@@ -69,7 +69,47 @@
 // console.log(result)
 
 
-// const array = [1, 2, 3, 4, 5, 6, 7, 8]
+const array = [1, 2, 3, 4, 5, 6, 7, 8];
+
+let x = array.includes(22) || array.includes(3);
+console.log(x)
+// let max = array[0];
+//  for(let i = 0; i > array.length; i++){
+// if(array[i] < max){
+//   max = array[i]
+// }
+//  }
+//  console.log(max)
+// let max = array.reduce((acc, item)=>Math.max(acc,item))
+// console.log(max)
+
+// let min = array.reduce((acc, item)=>Math.min(acc, item))
+// console.log(min)
+// let tru = [];
+// let tr = []
+// for(let i = 0; i < array.length; i++){
+//   if(i % 2 !== 0){
+//     tru.push(array[i])
+//   }else if(i % 1 === 0){
+// tr.push(array[i])
+//   }
+// }
+
+// console.log(tr)
+// console.log(tru)
+
+// let push = tr.concat(tru)
+// let index = push[3]
+// let vc = push.slice(1, 5)
+
+// console.log(vc)
+// console.log(push)
+// console.log(index)
+
+//  const str1 = `Hello word`;
+// //  const str2 = `ele`;
+//   let  x = str1. includes(`ell`);
+//  console.log(x)
 
 // let result = array.find((item)=>{
 //   return item % 2 === 0 && item > 3
@@ -99,30 +139,30 @@
 //TODO:=========task-02=================
 // Дано масив об'єктів {id: 1, values: [1, 2, 3]}, {id: 2, values: [4, 5, 6]}, {id: 3, values: [7, 8, 9]}. Створіть новий масив, що містить всі значення з масивів values кожного об'єкту, збережених в одному масиві. Очікуваний результат: [1, 2, 3, 4, 5, 6, 7, 8, 9].
 
-const data = [
-  { id: 1, values: [1, 2, 3] },
-  { id: 2, values: [4, 5, 6] },
-  { id: 3, values: [7, 8, 9] },
-];
+// const data = [
+//   { id: 1, values: [1, 2, 3] },
+//   { id: 2, values: [4, 5, 6] },
+//   { id: 3, values: [7, 8, 9] },
+// ];
 
-const result = data.flatMap((item, values) =>  item.values)
-console.log(result)
+// const result = data.flatMap((item, values) =>  item.values)
+// console.log(result)
 
-const sum = result.reduce((acc, item)=>{
-  return acc + item
-})
-console.log(sum)
-let par = [];
-let notPar = []
-for(let i = 0; i < result.length; i ++){
-  if(i % 2 !== 0){
-    par.push(result[i])
-  }else if( i % 1 === 0){
-    notPar.push(result[i])
-  }
-}
-console.log(par)
-console.log(notPar)
+// const sum = result.reduce((acc, item)=>{
+//   return acc + item
+// })
+// console.log(sum)
+// let par = [];
+// let notPar = []
+// for(let i = 0; i < result.length; i ++){
+//   if(i % 2 !== 0){
+//     par.push(result[i])
+//   }else if( i % 1 === 0){
+//     notPar.push(result[i])
+//   }
+// }
+// console.log(par)
+// console.log(notPar)
 // let max = 0;
 // for( let i = 0; i < notPar.length; i++){
 // if(notPar[i] > max){
