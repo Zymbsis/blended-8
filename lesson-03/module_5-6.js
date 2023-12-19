@@ -69,12 +69,12 @@
 // console.log(result)
 
 
-const array = [1, 2, 3, 4, 5, 6, 7, 8]
+// const array = [1, 2, 3, 4, 5, 6, 7, 8]
 
-let result = array.filter((item)=>{
-  return item % 2 === 0 && item > 3
-})
-console.log(result)
+// let result = array.find((item)=>{
+//   return item % 2 === 0 && item > 3
+// })
+// console.log(result)
 // const getArray = array.map(elem=>elem ** 2)
 // console.log(getArray)
 // const getSum = array.reduce((acc, item)=> {
@@ -99,11 +99,46 @@ console.log(result)
 //TODO:=========task-02=================
 // Дано масив об'єктів {id: 1, values: [1, 2, 3]}, {id: 2, values: [4, 5, 6]}, {id: 3, values: [7, 8, 9]}. Створіть новий масив, що містить всі значення з масивів values кожного об'єкту, збережених в одному масиві. Очікуваний результат: [1, 2, 3, 4, 5, 6, 7, 8, 9].
 
-// const data = [
-//   { id: 1, values: [1, 2, 3] },
-//   { id: 2, values: [4, 5, 6] },
-//   { id: 3, values: [7, 8, 9] },
-// ];
+const data = [
+  { id: 1, values: [1, 2, 3] },
+  { id: 2, values: [4, 5, 6] },
+  { id: 3, values: [7, 8, 9] },
+];
+
+const result = data.flatMap((item, values) =>  item.values)
+console.log(result)
+
+const sum = result.reduce((acc, item)=>{
+  return acc + item
+})
+console.log(sum)
+let par = [];
+let notPar = []
+for(let i = 0; i < result.length; i ++){
+  if(i % 2 !== 0){
+    par.push(result[i])
+  }else if( i % 1 === 0){
+    notPar.push(result[i])
+  }
+}
+console.log(par)
+console.log(notPar)
+// let max = 0;
+// for( let i = 0; i < notPar.length; i++){
+// if(notPar[i] > max){
+// max = notPar[i]
+// }
+// }
+// console.log(max)
+
+
+// let some = notPar.some((item)=>item<1)
+// console.log(some)
+// console.log(notPar.every((item)=>item>=1))
+
+
+
+
 // const result = data.flatMap((item, values)=> 
 //    item.values
 // )
