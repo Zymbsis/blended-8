@@ -70,9 +70,24 @@
 
 
 const array = [1, 2, 3, 4, 5, 6, 7, 8];
+// let max = 0;
+// for(let i = 0; i < array.length; i++){
+//   if(array[i] > max){
+//     max = array [i]
+//   }
+// }
+// console.log(max)
+// let max = array.reduce((acc, item) =>Math.min( acc, item));
+// console.log(max)
 
-let x = array.includes(22) || array.includes(3);
-console.log(x)
+let result = array.find((item, ind) => 
+   item % 2 === 0 && item > 4
+)
+console.log(result)
+
+
+// let x = array.includes(22) || array.includes(3);
+// console.log(x)
 // let max = array[0];
 //  for(let i = 0; i > array.length; i++){
 // if(array[i] < max){
