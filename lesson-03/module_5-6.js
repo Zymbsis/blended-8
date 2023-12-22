@@ -1,6 +1,9 @@
 //! Callback
 //TODO:============task-01=========================
 // Напишіть функцію, яка приймає два числа і колбек-функцію. Функція повинна помножити числа між собою та передати результат дії до колбек-функції. Колбек-функція повинна, у разі, якщо, це число є парним - помножити це число на себе, якщо ні - взяти квадратний корінь з цього числа, та вивести результат у консоль лог.
+
+
+
 // function performOperation(a, b, callback) {
 //   return callback(a * b);
 // }
@@ -69,7 +72,22 @@
 // console.log(result)
 
 
-const array = [1, 2, 3, 4, 5, 6, 7, 8];
+// const array = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// let result = array.some(item => 
+//    item < 0
+// );
+// console.log(result)
+
+// let result = array.sort((a, b)=>
+//    b - a
+// )
+// // console.log(array)
+
+// let result = array.every(item => item < 10);
+// console.log(result)
+
+
 // let max = 0;
 // for(let i = 0; i < array.length; i++){
 //   if(array[i] > max){
@@ -80,10 +98,18 @@ const array = [1, 2, 3, 4, 5, 6, 7, 8];
 // let max = array.reduce((acc, item) =>Math.min( acc, item));
 // console.log(max)
 
-let result = array.find((item, ind) => 
-   item % 2 === 0 && item > 4
-)
-console.log(result)
+// let result = array.find((item, ind) => 
+//    item % 2 === 0 && item > 4
+// )
+// console.log(result)
+
+// let result = 0;
+// for(let i = 0; i < array.length; i++){
+//   result += array[i] / array.length
+// }
+// console.log(result)
+
+
 
 
 // let x = array.includes(22) || array.includes(3);
@@ -350,16 +376,17 @@ console.log(result)
 
 // window.console.log("Hello");
 
-const user = {
-  name: "Andrty",
-  lastName: "Tronovis",
-  age: 40,
-  email: "fgr@mail.com",
+// const user = {
+//   name: "Andrty",
+//   lastName: "Tronovis",
+//   age: 40,
+//   email: "fgr@mail.com",
 
-  getInfo() {
-    console.log(this);
-  },
-};
+//   getInfo() {
+//     console.log(this);
+//   },
+// };
+
 
 // user.getInfo();
 
