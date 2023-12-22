@@ -3,13 +3,17 @@
 // Даний рядок, що складається із символів, наприклад, 'abcde'.
 // Перевірте, що першим символом цього рядка є буква 'a'.
 // Якщо це так - виведіть 'так', інакше виведіть 'ні'.
-const str = 'abcd';
+// const str = 'abcd';
 // if(str.toLocaleLowerCase().startsWith(`a`)){
 // console.log(`yes`);
 // } else{
 //     console.log(`noy`)
 // }
 
+
+
+// let result = str.toLocaleLowerCase().endsWith(`d`) ? `eys` : `noy`;
+// console.log(result)
 // let result = str.toLocaleLowerCase().startsWith(`a`);
 // console.log(result)
 
