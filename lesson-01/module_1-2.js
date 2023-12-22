@@ -3,7 +3,8 @@
 // Даний рядок, що складається із символів, наприклад, 'abcde'.
 // Перевірте, що першим символом цього рядка є буква 'a'.
 // Якщо це так - виведіть 'так', інакше виведіть 'ні'.
-// const str = 'abcd';
+
+
 // if(str.toLocaleLowerCase().startsWith(`a`)){
 // console.log(`yes`);
 // } else{
@@ -44,6 +45,19 @@
 // TODO: 2 ===================================
 // У змінній min лежить число від 0 до 60. Визначте у котру чверть години
 // Попадає це число (у першу, другу, третю або четверту). Виведіть значення у консоль, або alert
+
+// const min = 57;
+// if(min > 0 && min < 15){
+//     console.log(`part 1`);
+// }else if(min >15 && min < 30){
+//     console.log(`part 2`)
+// }else if(min > 30 && min <45){
+//     console.log(`part 3`)
+// }else if(min > 45 && min < 61){
+//     console.log(`part 4`)
+// }
+
+
 
 // const min = -1;
 // if (min > 0 && min <= 15) {
@@ -100,6 +114,10 @@
 //TODO: 4 ===================================
 // Перевірити, чи є введене користувачем число парним чи непарним, і вивести відповідне повідомлення. Використай promt і виведи повідомлення в alert. (використати тернарний оператор)
 
+
+// let result = userNumber % 2 === 0 ? `parne number` : `neparne number`
+// console.log(result)
+
 // const userNum = prompt(`enter number`);
 // if(userNum % 2 === 0){
 //     console.log(`parne number`)
@@ -110,8 +128,9 @@
 //TODO: 5 ===================================
 // Перепишіть if..else на тернарний оператор, за допомогою декількох операторів '?'.
 
-// const login = 'Директор';
-// let message = '';
+const login = 'Директор';
+let message = '';
+
 
 // if (login === 'Співробітник') {
 //   message = 'Привіт';
@@ -124,6 +143,9 @@
 // }
 
 // console.log(message);
+
+let result = login === `Директор` ? `hello manedger` : `hello user`;
+console.log(result)
 
 //* Цикл while and do while
 // TODO: 6 ===================================
