@@ -144,8 +144,8 @@ let message = '';
 
 // console.log(message);
 
-let result = login === `Директор` ? `hello manedger` : `hello user`;
-console.log(result)
+// let result = login === `Директор` ? `hello manedger` : `hello user`;
+// console.log(result)
 
 //* Цикл while and do while
 // TODO: 6 ===================================
