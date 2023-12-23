@@ -267,16 +267,16 @@
 // }
 
 
-const number = [ 1, 23, 43, 65, 75, 15, 9]
-let result = number.filter(item=>{
-    if(item % 3 === 0 && item % 5 ===0){
-        console.log(item)
-    }else if(item % 5 === 0)
-        {console.log(item)
-    }else if(item % 3 === 0)
-    {console.log(item)
-    }
-})
+// const number = [ 1, 23, 43, 65, 75, 15, 9]
+// let result = number.filter(item=>{
+//     if(item % 3 === 0 && item % 5 ===0){
+//         console.log(item)
+//     }else if(item % 5 === 0)
+//         {console.log(item)
+//     }else if(item % 3 === 0)
+//     {console.log(item)
+//     }
+// })
 
 
 
@@ -297,13 +297,14 @@ let result = number.filter(item=>{
 // значення '1', то у змінну result запишемо 'зима', якщо має значення
 // '2' - 'весна' і так далі. Розв'яжіть завдання через switch-case.
 
+
 // const num = 2;
 // switch(num) {
 //     case 1: console.log(`Zima`); break;
 //     case 2: console.log(`Vesna`); break;
 //     case 3: console.log(`Leti`); break;
-//     // case 4: console.log(`Osen`)
-//     // default: console.log(`Osen`)
+//     case 4: console.log(`Osen`)
+//     default: console.log(`Osen`)
 // }
 
 
@@ -311,23 +312,21 @@ let result = number.filter(item=>{
 //TODO: 12 ===================================
 // Напишіть if..else, що відповідає наступному switch:
 
-// const browser = 'Opera';
+const browser = 'Firefox';
 
-// switch (browser) {
-//   case 'Edge':
-//     console.log("You've got the Edge!");
-//     break;
+switch (browser) {
+  case 'Edge':
+    console.log("You've got the Edge!");
+    break;
 
-//   case 'Chrome':
-//   case 'Firefox':
-//   case 'Safari':
-//   case 'Opera':
-//     console.log('Okay we support these browsers too');
-//     break;
+  case 'Chrome',`Opera`, `Safari`, `Firefox`:
+ 
+    console.log('Okay we support these browsers too');
+    break;
 
-//   default:
-//     console.log('We hope that this page looks ok!');
-// }
+  default:
+    console.log('We hope that this page looks ok!');
+}
 //====================================================================
 
 // const browser = `Firefox`
