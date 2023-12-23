@@ -157,15 +157,15 @@ let message = '';
 // введе число більше 100, або натисне кнопку
 // скасування в prompt
 
-let number = prompt(`enter your number`)
+// let number = prompt(`enter your number`)
 // if(number <= 100){
 //     console.log(`enter yuor number beefor 100`)
 // }else if(number >=100){
 //     console.log(`hello`)
 // }
 
-let result = number >= 100 ? `hello` : `user`
-console.log(result)
+// let result = number >= 100 ? `hello` : `user`
+// console.log(result)
 
 // let number;
 // do {
@@ -197,6 +197,19 @@ console.log(result)
 // Напишіть цикл, який виводить у консоль
 // числа від max до min за спаданням
 // Додайте усі парні числа від min до max
+
+// let min = 1;
+// let max = 20;
+// for(let i = max; i > min; i --){
+//     console.log(i)
+// }
+// let result = 0;
+// for(let i = min; i < max; i ++){
+//     if(i % 2 === 0){
+// result += i
+//     }
+// }
+// console.log(result)
 // // const min = 1;
 // // const max = 10;
 // // let total = 0;
