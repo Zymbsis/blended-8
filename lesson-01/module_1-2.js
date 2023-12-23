@@ -128,8 +128,8 @@
 //TODO: 5 ===================================
 // Перепишіть if..else на тернарний оператор, за допомогою декількох операторів '?'.
 
-const login = 'Директор';
-let message = '';
+// const login = 'Директор';
+// let message = '';
 
 
 // if (login === 'Співробітник') {
@@ -251,13 +251,36 @@ let message = '';
 //   star += '*';
 // }
 
+
 //TODO: 10 ===================================
 //Якщо число ділитися на 3 повертати
 //fizz якщо ділитися на 5 повертати buzz
 //Якщо ділитися на 3 і на 5 повернути fizzbuzz
 
-// const number = 3;
+// const number = 15; 
+// if(number % 3 === 0){
+//     console.log(`fizz`);
+// }else if(number % 5 === 0){
+//     console.log(`buzz`)
+// }else if(number % 3 === 0 && number % 5 === 0){
+//     console.log(`fizzBizz`)
+// }
 
+
+const number = [ 1, 23, 43, 65, 75, 15, 9]
+let result = number.filter(item=>{
+    if(item % 3 === 0 && item % 5 ===0){
+        console.log(item)
+    }else if(item % 5 === 0)
+        {console.log(item)
+    }else if(item % 3 === 0)
+    {console.log(item)
+    }
+})
+
+
+
+// for(let i = 0; i < number.length; i ++)
 // if(number % 3 === 0 && number % 5 ===0){
 //     console.log(`fizzbuz`)
 // }else if(number % 5 === 0)
@@ -265,6 +288,7 @@ let message = '';
 // }else if(number % 3 === 0)
 // {console.log(`fizz`)
 // }
+// console.log(number)
 
 
 //* Конструкція switch
