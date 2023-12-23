@@ -156,6 +156,17 @@ let message = '';
 // Цикл має питати число, поки відвідувач не
 // введе число більше 100, або натисне кнопку
 // скасування в prompt
+
+let number = prompt(`enter your number`)
+// if(number <= 100){
+//     console.log(`enter yuor number beefor 100`)
+// }else if(number >=100){
+//     console.log(`hello`)
+// }
+
+let result = number >= 100 ? `hello` : `user`
+console.log(result)
+
 // let number;
 // do {
 //   number = prompt('Enter a number bigger than 100');
