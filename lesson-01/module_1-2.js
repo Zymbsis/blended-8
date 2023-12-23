@@ -312,28 +312,45 @@
 //TODO: 12 ===================================
 // Напишіть if..else, що відповідає наступному switch:
 
-const browser = 'Firefox';
+// const browser = 'Firefox';
 
-switch (browser) {
-  case 'Edge':
-    console.log("You've got the Edge!");
-    break;
+// switch (browser) {
+//   case 'Edge':
+//     console.log("You've got the Edge!");
+//     break;
 
-  case 'Chrome',`Opera`, `Safari`, `Firefox`:
+//   case 'Chrome',`Opera`, `Safari`, `Firefox`:
  
-    console.log('Okay we support these browsers too');
-    break;
+//     console.log('Okay we support these browsers too');
+//     break;
 
-  default:
-    console.log('We hope that this page looks ok!');
-}
+//   default:
+//     console.log('We hope that this page looks ok!');
+// }
 //====================================================================
 
-// const browser = `Firefox`
-// if(browser === `Chrome` || `Firefox` || `Safari`){
+// const browser = `Opera`
+// if(browser === `Chrome` || `Firefox` ||`Safari`){
 //     console.log(`Okay we support these browsers too'`)
 // }else if(browser === `Opera`){
 //     console.log(`We hope that this page looks ok!`)
 // }else {
 //     console.log(`not servise`)
 // }
+
+function getFone(result){
+result === `Opera`
+if(result === `Chrome`){
+    console.log(`Okay we support these browsers too'`)
+}else if(result === `Firefoxme`){
+    console.log(`Okay we support these browsers too'`)
+}else if(result === `Safari`){
+    console.log(`Okay we support these browsers too'`)
+}else if(result === `Opera`){
+    console.log(`We hope that this page looks ok!`)
+}
+}
+console.log(getFone(`Safari`))
+
+
+
