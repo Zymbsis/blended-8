@@ -4,15 +4,7 @@
 // Перевірте, що першим символом цього рядка є буква 'a'.
 // Якщо це так - виведіть 'так', інакше виведіть 'ні'.
 
-const str =  `wadcf, wded, de2d`;
-if(str.toLocaleLowerCase().startsWith(`a`)){
-    console.log(`yes`);
-}else {
-    console.log(`noy`)
-}
 
-let res = str.length
-console.log(res)
 
 // if(str.toLocaleLowerCase().startsWith(`a`)){
 // console.log(`yes`);
@@ -26,6 +18,7 @@ console.log(res)
 // console.log(result)
 // let result = str.toLocaleLowerCase().startsWith(`a`);
 // console.log(result)
+
 
 // let result = str.toLocaleLowerCase().includes(`bc`) ? `eys` : `noy`;
 // console.log(result)
