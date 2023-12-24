@@ -5,8 +5,9 @@
 // Замініть значення "Блюз" на "Класика".
 // Видалить перший елемент масиву і виведіть його в консоль.
 // Вставте «Реп» і «Реггі» на початок масиву.
-//  const styles = [`dgaz`, `Bluz`]
+ 
 //  styles.push(`Rook`)
+//  console.log(styles)
 // //  styles[1] = `Klasuk`
 // const index = styles.indexOf(`Bluz`)
 // // console.log(styles[index] = `Klasuk`)
@@ -39,6 +40,8 @@
 // }
 // console.log(result)
 
+
+
 // function amountWord(str) {
 //     const item = str.split(``)
 // let result = 0
@@ -47,13 +50,15 @@
 // }
 // return result
 // }
-// console.log(amountWord(message))
+// console.log(amountWord(`message`))
+
+
 
 
 //TODO:=========task-04=================
 // Об'єднати масив слів в рядок, розділений комами та пробілами.
 // const words = ['JavaScript', 'HTML', 'CSS', 'React'];
-// const item = words.join(`, `)
+// const item = words.join(` ,`)
 // console.log(item)
 
 
@@ -62,9 +67,9 @@
 
 // const stringArray = ['JavaScript', 'HTML', 'CSS', 'React'];
 // const substring = 'S';
-// // console.log(
-// //   `Масив елементів, що містять підстроку ${substring} : ${joinedArray}`
-// // );
+// console.log(
+//   `Масив елементів, що містять підстроку ${substring} : ${joinedArray}`
+// );
 
 // const newArray = []
 // for(const word of stringArray) {
