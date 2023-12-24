@@ -116,7 +116,7 @@
 //TODO: 4 ===================================
 // Перевірити, чи є введене користувачем число парним чи непарним, і вивести відповідне повідомлення. Використай promt і виведи повідомлення в alert. (використати тернарний оператор)
 
-
+//  let userNumber = 12;
 // let result = userNumber % 2 === 0 ? `parne number` : `neparne number`
 // console.log(result)
 
@@ -131,8 +131,6 @@
 // Перепишіть if..else на тернарний оператор, за допомогою декількох операторів '?'.
 
 // const login = 'Директор';
-// let message = '';
-
 
 // if (login === 'Співробітник') {
 //   message = 'Привіт';
@@ -158,6 +156,8 @@
 // Цикл має питати число, поки відвідувач не
 // введе число більше 100, або натисне кнопку
 // скасування в prompt
+
+
 
 // let number = prompt(`enter your number`)
 // if(number <= 100){
@@ -225,19 +225,18 @@
 // // }
 // // 
 // console.log(`Сума усіх парних: ${total}`);
-// const number = [1, 2, 3, 4];
+// const number = [1, 2, 3, 4, 6, 8];
 // let result;
 // for (let i = 0; i < number.length; i += 1) {
 //     if (number[i] % 2 === 0) {
-//         result = number[i];
+//         result += number[i];
     
-//         break;
+        
 //    }
 // }
 
-
-
 // console.log(result);
+
 // //TODO: 9 ===================================
 //  Виведіть методом console.log() зірочки від 1 до 6 штук у вигляді трикутника таким чино
 // *
@@ -246,6 +245,7 @@
 // ****
 // *****
 // ******
+
 
 // let star = '*';
 // for (let i = 1; i < 7; i++) {
@@ -269,7 +269,7 @@
 // }
 
 
-// const number = [ 1, 23, 43, 65, 75, 15, 9]
+const number = [ 1, 23, 43, 65, 75, 15, 9, 4, 6, 8]
 // let result = number.filter(item=>{
 //     if(item % 3 === 0 && item % 5 ===0){
 //         console.log(item)
@@ -280,6 +280,8 @@
 //     }
 // })
 
+// let max = number.reduce((item, acc)=> Math.max(item, acc))
+// console.log(max)
 
 
 // for(let i = 0; i < number.length; i ++)
