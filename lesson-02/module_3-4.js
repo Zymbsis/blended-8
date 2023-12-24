@@ -112,22 +112,22 @@
 //         return b
 //     }
 // }
-// console.log(min(10,5))
+// console.log(min(10,45))
 
 //TODO:=============task-08=================
 // напиши функцію яка сумуватиме сусідні числа і пушити в новий масив
 
-// const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
-// function sumAdjacentNumbers (someArr){
-//     let result = []
-//     for( let i = 0; i < someArr .length -1; i++){
-// result.push(someArr[i] + someArr[i + 1] )
-//     }
-//     return result
-// }
+const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
+function sumAdjacentNumbers (someArr){
+    let result = []
+    for( let i = 0; i < someArr .length -1; i++){
+result.push(someArr[i] + someArr[i + 1] )
+    }
+    return result
+}
 
-// const result = sumAdjacentNumbers(someArr);
-// console.log(result); // [33, 45, 39, 17, 25, 27, 29]
+const result = sumAdjacentNumbers(someArr);
+console.log(result); // [33, 45, 39, 17, 25, 27, 29]
 
 
 //TODO:=========task-09=================
