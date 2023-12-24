@@ -4,6 +4,15 @@
 // Перевірте, що першим символом цього рядка є буква 'a'.
 // Якщо це так - виведіть 'так', інакше виведіть 'ні'.
 
+const str =  `wadcf, wded, de2d`;
+if(str.toLocaleLowerCase().startsWith(`a`)){
+    console.log(`yes`);
+}else {
+    console.log(`noy`)
+}
+
+let res = str.length
+console.log(res)
 
 // if(str.toLocaleLowerCase().startsWith(`a`)){
 // console.log(`yes`);
@@ -338,19 +347,19 @@
 //     console.log(`not servise`)
 // }
 
-function getFone(result){
-result === `Opera`
-if(result === `Chrome`){
-    console.log(`Okay we support these browsers too'`)
-}else if(result === `Firefoxme`){
-    console.log(`Okay we support these browsers too'`)
-}else if(result === `Safari`){
-    console.log(`Okay we support these browsers too'`)
-}else if(result === `Opera`){
-    console.log(`We hope that this page looks ok!`)
-}
-}
-console.log(getFone(`Safari`))
+// function getFone(result){
+// result === `Opera`
+// if(result === `Chrome`){
+//     console.log(`Okay we support these browsers too'`)
+// }else if(result === `Firefoxme`){
+//     console.log(`Okay we support these browsers too'`)
+// }else if(result === `Safari`){
+//     console.log(`Okay we support these browsers too'`)
+// }else if(result === `Opera`){
+//     console.log(`We hope that this page looks ok!`)
+// }
+// }
+// console.log(getFone(`Safari`))
 
 
 
