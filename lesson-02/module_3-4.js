@@ -248,6 +248,16 @@
 
 //TODO:============task-03==============================================
 // Створіть об'єкт "магазин" зі списком товарів. Напишіть метод "hasProduct", який буде перевіряти, чи є певний товар в наявності на складі магазину.
+
+// const shop = {
+//     frukt: [`aplle`,`poteiti`, `tomato`, `kivi`],
+//     hasProduct(hasFrukt){
+//         return this.frukt.includes(hasFrukt)
+//     }
+// }
+// console.log(shop.hasProduct(`aplle`))
+
+
 // const store = {
 //     goods:["apple", "banan","kiwi","tomato"],
 // hasProduct  (product){
@@ -259,6 +269,8 @@
 
 //TODO:============task-04==============================================
 // 4. Створіть об'єкт "кошик" зі списком товарів та їх цін. Напишіть метод "calculateTotal", який буде обчислювати загальну суму товарів у кошику.
+
+
 // const cart = {
 //     goods:["apple", "banan","kiwi","tomato"],
 //     price:[30,50,45,90],
@@ -280,22 +292,23 @@
 // Якщо об'єкт має такий ключ - поверне true
 // Є 2 варіанти рішення, спочатку напишемо функцію, потім вирішимо простим способом
 
+
 // const obj = {
 //   name: 'Igor',
 //   car: 'Mercedes',
 //   carColor: 'black',
 // };
-// // function getBool(obj, key) {
-// //   return Object.keys(obj).includes(key);
-// // }
+// function getBool(obj, key) {
+//   return Object.keys(obj).includes(key);
+// }
 
-// // console.log(getBool(obj, 'car')); // true
+// console.log(getBool(obj, 'car')); // true
 
 // function getBool(obj, key) {
 //   return key in obj;
 // }
 
-// console.log(getBool(obj, 'car')); // true
+// console.log(getBool(obj, `age`)); // true
 
 //TODO:============task-06======================================================
 // У нас є об'єкт, у якому зберігатимуться зарплати
@@ -304,19 +317,19 @@
 // збережіть його результат у змінній sum.
 // Якщо об'єкт salaries порожній, то результат має бути 0
 
-// const salaries = {
-//   Mango: 100,
-//   Poly: 160,
-//   Ajax: 1470,
-// };
-// let sum = 0;
-// if (Object.values(salaries) !== 0) {
-//   for (const item of Object.values(salaries)) {
-//     sum += item;
-//   }
-// }
+const salaries = {
+  Mango: 100,
+  Poly: 160,
+  Ajax: 1470,
+};
+let sum = 0;
+if (Object.values(salaries) !== 0) {
+  for (const item of Object.values(salaries)) {
+    sum += item;
+  }
+}
 
-// console.log(sum);
+console.log(sum);
 
 //TODO:============task-07======================================================
 // Напишіть функцію, яка приймає як параметр об'єкт
