@@ -117,17 +117,17 @@
 //TODO:=============task-08=================
 // напиши функцію яка сумуватиме сусідні числа і пушити в новий масив
 
-const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
-function sumAdjacentNumbers (someArr){
-    let result = []
-    for( let i = 0; i < someArr .length -1; i++){
-result.push(someArr[i] + someArr[i + 1] )
-    }
-    return result
-}
+// const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
+// function sumAdjacentNumbers (someArr){
+//     let result = []
+//     for( let i = 0; i < someArr .length -1; i++){
+// result.push(someArr[i] + someArr[i + 1] )
+//     }
+//     return result
+// }
 
-const result = sumAdjacentNumbers(someArr);
-console.log(result); // [33, 45, 39, 17, 25, 27, 29]
+// const result = sumAdjacentNumbers(someArr);
+// console.log(result); // [33, 45, 39, 17, 25, 27, 29]
 
 
 //TODO:=========task-09=================
@@ -135,8 +135,14 @@ console.log(result); // [33, 45, 39, 17, 25, 27, 29]
 //яка приймає довільну кількість
 //аргументів і повертає їхнє середнє значення.
 //Додати перевірку, що аргументи це числа. Array.from()
+ function caclculateAverage(a, b, c , d){
+    if(typeof a !== `number` || typeof b !== `number` || typeof c !== `number` || typeof d !== `number` ){
+        return `arg is not a number`
+    } 
+    return a + b + c + d / 4
+ }
 
-// console.log(calculateAverage(10, 10, 20, 200));
+console.log(caclculateAverage(10, 10, 20, 200));
 
 //TODO:=============task-10=================
 // Написати функцію, яка приймає рядок і повертає кількість голосних літер у цьому рядку. `Містить ${count} голосних`
