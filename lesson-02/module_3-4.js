@@ -317,19 +317,19 @@
 // збережіть його результат у змінній sum.
 // Якщо об'єкт salaries порожній, то результат має бути 0
 
-const salaries = {
-  Mango: 100,
-  Poly: 160,
-  Ajax: 1470,
-};
-let sum = 0;
-if (Object.values(salaries) !== 0) {
-  for (const item of Object.values(salaries)) {
-    sum += item;
-  }
-}
+// const salaries = {
+//   Mango: 100,
+//   Poly: 160,
+//   Ajax: 1470,
+// };
+// let sum = 0;
+// if (Object.values(salaries) !== 0) {
+//   for (const item of Object.values(salaries)) {
+//     sum += item;
+//   }
+// }
 
-console.log(sum);
+// console.log(sum);
 
 //TODO:============task-07======================================================
 // Напишіть функцію, яка приймає як параметр об'єкт
@@ -358,6 +358,17 @@ console.log(sum);
 //   height: 300,
 //   title: 'My menu',
 // };
+// function multiplyNumeric(obj){
+//     for(let key in obj){
+//         if(typeof obj [key] === `number`){
+//             obj[key] *= 2
+//         }
+//     }
+// }
+
+// multiplyNumeric(menu);
+
+// console.log(menu);
 
 // function multiplyNumeric(obj) {
 //   for (const key in obj) {
@@ -383,15 +394,17 @@ console.log(sum);
 // новий об'єкт без зазначених параметрів
 // Очікуваний результат ({a: 1, b: 2, c: 3}, 'b', 'a') => {c: 3}
 
-// function updateObject(obj, ...removeKeys) {
-//   let newObj = {...obj};
-//   for (const key of removeKeys) {
-//     delete newObj[key];
-//   }
-//   return newObj;
-// }
 
-// console.log(updateObject({ a: 1, b: 2, c: 3 }, 'b', 'a')); // {c: 3}
+
+function updateObject(obj, ...removeKeys) {
+  let newObj = {...obj};
+  for (const item of removeKeys) {
+    delete newObj[item];
+  }
+  return newObj;
+}
+
+console.log(updateObject({ a: 1, b: 2, c: 3 }, 'b', 'a')); // {c: 3}
 
 //! Робота з масивом об'єктів
 //TODO:============task-10==============================
