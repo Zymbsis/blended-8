@@ -222,6 +222,20 @@
 //TODO:============task-02==============================================
 // Створіть об'єкт "прямокутник" з властивостями "довжина" та "ширина". Напишіть метод "calculateArea", який буде обчислювати площу прямокутника на основі його довжини та ширини.
 
+// const sguar = {
+//     with: 5,
+//     heght: 10,
+//     calculateArea(){
+//         return this.heght * this.with
+//     }
+// }
+// console.log(sguar.calculateArea())
+
+// function sguar(a, b){
+//     return a * b
+// }
+// console.log(sguar(2, 4))
+
 // const square = {
 //     widtn: 10,
 //     length: 20,
