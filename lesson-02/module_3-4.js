@@ -148,27 +148,42 @@
 //TODO:=============task-10=================
 // Написати функцію, яка приймає рядок і повертає кількість голосних літер у цьому рядку. `Містить ${count} голосних`
 
-const str = "This is a new line ";
-const vowels = ["a", "e", "i", "o", "u"];
+// const str = "This is a new line ";
+// const vowels = ["a", "e", "i", "o", "u"];
 
-function countVowels (str){
-    const vowels = ["a", "e", "i", "o", "u"];
-    let count = 0;
-    for(let char of str.toLowerCase()){
-        if(vowels.includes(char)){
-            count ++
-        }
-    }
+// function countVowels (str){
+//     const vowels = ["a", "e", "i", "o", "u"];
+//     let count = 0;
+//     for(let char of str.toLowerCase()){
+//         if(vowels.includes(char)){
+//             count ++
+//         }
+//     }
    
-    return `Містить ${count} голосних`
-}
+//     return `Містить ${count} голосних`
+// }
 
-console.log(countVowels(str));
+// console.log(countVowels(str));
 
 //TODO:=========task-11=================
 // Знайти перший парний елемент масиву, який більший за 10, використовуючи цикл з оператором break та continue.
 // const numbers = [5, 11, 21, 8, 7, 15, 11, 11];
+// let result;
+// for(let i = 0; i < numbers.length; i ++){
+//     if(numbers[i] <= 10){
+//         continue;
+//     }
+//     if(numbers[i] % 2 === 0){
+//         break;
+// }
+// }
+// console.log(result)
 
+
+// let result = numbers.find((item)=>{
+//     return item % 2 === 0 && item > 10
+//   })
+//   console.log(result)
 // console.log(getOddNumbers(numbers));
 
 //!  Літерал об'єкта
@@ -178,6 +193,20 @@ console.log(countVowels(str));
 // Послідовно:
 // 1 додати поле mood зі значенням 'happy'
 // 2 замінити hobby на 'skydiving'
+
+// const human = {
+//     name: `Oleg`,
+//     hobby: `sport`,
+//     age: 37,
+//     greet (){
+//     console.log(`this name`)
+//     }
+// }
+
+// human.mood = `happy`
+// human.hobby = `skydiving`
+// console.log(human)
+
 
 // const human = {
 //     userName: `Ruslan`,

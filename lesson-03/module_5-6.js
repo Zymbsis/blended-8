@@ -151,8 +151,8 @@
 // //  const str2 = `ele`;
 //   let  x = str1. includes(`ell`);
 //  console.log(x)
-
-// let result = array.find((item)=>{
+// const numbers = [5, 11, 21, 8, 7, 15, 20, 11];
+// let result = numbers.filter((item)=>{
 //   return item % 2 === 0 && item > 3
 // })
 // console.log(result)
