@@ -396,29 +396,46 @@
 
 
 
-function updateObject(obj, ...removeKeys) {
-  let newObj = {...obj};
-  for (const item of removeKeys) {
-    delete newObj[item];
-  }
-  return newObj;
-}
+// function updateObject(obj, ...removeKeys) {
+//   let newObj = {...obj};
+//   for (const item of removeKeys) {
+//     delete newObj[item];
+//   }
+//   return newObj;
+// }
 
-console.log(updateObject({ a: 1, b: 2, c: 3 }, 'b', 'a')); // {c: 3}
+// console.log(updateObject({ a: 1, b: 2, c: 3 }, 'b', 'a')); // {c: 3}
 
 //! Робота з масивом об'єктів
 //TODO:============task-10==============================
 // Створіть масив об'єктів "студентів" з властивостями "ім'я", "прізвище" та "середній бал".
 // Напишіть функцію "findTopStudent", яка буде повертати об'єкт студента з найвищим середнім балом.
 
-// const students = [
-//   { name: 'Андрій', surname: 'Іванов', grade: 4.5 },
-//   { name: 'Олександр', surname: 'Петров', grade: 3.9 },
-//   { name: 'Марія', surname: 'Сидорова', grade: 4.8 },
-//   { name: 'Ірина', surname: 'Федорова', grade: 4.2 },
-// ];
+const students = [
+  { name: 'Андрій', surname: 'Іванов', grade: 4.5 },
+  { name: 'Олександр', surname: 'Петров', grade: 3.9 },
+  { name: 'Марія', surname: 'Сидорова', grade: 4.8 },
+  { name: 'Ірина', surname: 'Федорова', grade: 4.2 },
+];
 
-// console.log(findTopStudent(students));
+
+// function findTopStudent(students) {
+//     let topStudent = students.reduce((item, acc) => (item.grade > acc.grade) ? item : acc);
+//     return topStudent;
+//   }
+  
+//   console.log(findTopStudent(students))
+
+//  let result = students.sort((x1, x2) => {
+//     return x1.grade - x2.grade
+//  })
+//  console.log(result)
+  
+// let rusult = students.some((item) => {
+//     return item.grade > 5
+// })
+ 
+// console.log(rusult)
 
 //TODO:============task-11==================================================
 // Створіть масив об'єктів "книг" з властивостями "назва", "автор" та "рік видання". Напишіть функцію "findBooksByAuthor",
