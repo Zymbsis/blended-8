@@ -135,22 +135,35 @@
 //яка приймає довільну кількість
 //аргументів і повертає їхнє середнє значення.
 //Додати перевірку, що аргументи це числа. Array.from()
- function caclculateAverage(a, b, c , d){
-    if(typeof a !== `number` || typeof b !== `number` || typeof c !== `number` || typeof d !== `number` ){
-        return `arg is not a number`
-    } 
-    return a + b + c + d / 4
- }
 
-console.log(caclculateAverage(10, 10, 20, 200));
+//  function caclculateAverage(a, b, c , d){
+//     if(typeof a !== `number` || typeof b !== `number` || typeof c !== `number` || typeof d !== `number` ){
+//         return `arg is not a number`
+//     } 
+//     return a + b + c + d / 4
+//  }
+
+// console.log(caclculateAverage(10, 10, 20, 200));
 
 //TODO:=============task-10=================
 // Написати функцію, яка приймає рядок і повертає кількість голосних літер у цьому рядку. `Містить ${count} голосних`
 
-// const str = "This is a new line";
-// const vowels = ["a", "e", "i", "o", "u"];
+const str = "This is a new line ";
+const vowels = ["a", "e", "i", "o", "u"];
 
-// console.log(countVowels(str));
+function countVowels (str){
+    const vowels = ["a", "e", "i", "o", "u"];
+    let count = 0;
+    for(let char of str.toLowerCase()){
+        if(vowels.includes(char)){
+            count ++
+        }
+    }
+   
+    return `Містить ${count} голосних`
+}
+
+console.log(countVowels(str));
 
 //TODO:=========task-11=================
 // Знайти перший парний елемент масиву, який більший за 10, використовуючи цикл з оператором break та continue.
