@@ -115,17 +115,17 @@
 // console.log(newArray)
 //TODO:=========task-06=================
 // Перевірити, чи містить масив заданий елемент. Якщо містить, видалити його, якщо ні - додати в кінець масиву.
- const array = ['JavaScript', 'HTML', 'CSS', 'SS'];
- const elem = 'SS';
+//  const array = ['JavaScript', 'HTML', 'CSS', 'SS'];
+//  const elem = 'SS';
 
-if(array.includes(elem)){
-  const index = array.includes(elem);
-  array.splice(index, 1)
-}else {
-  array.push(elem);
-}
+// if(array.includes(elem)){
+//   const index = array.includes(elem);
+//   array.splice(index, 1)
+// }else {
+//   array.push(elem);
+// }
 
-console.log(array)
+// console.log(array)
 
 
 
@@ -451,6 +451,10 @@ console.log(array)
 //   { name: 'Марія', surname: 'Сидорова', grade: 4.8 },
 //   { name: 'Ірина', surname: 'Федорова', grade: 4.2 },
 // ];
+// students.forEach(student => {
+//   console.log(student.name)
+// })
+
 
 // students.forEach(student => {
 //   console.log(student.name)
