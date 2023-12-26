@@ -418,6 +418,13 @@ const students = [
   { name: 'Ірина', surname: 'Федорова', grade: 4.2 },
 ];
 
+// students.forEach(student => {
+//   console.log(student.name)
+// })
+students.forEach(student => {
+  console.log(student.surname, student.name)
+})
+
 
 // function findTopStudent(students) {
 //     let topStudent = students.reduce((item, acc) => (item.grade > acc.grade) ? item : acc);
@@ -477,7 +484,7 @@ const students = [
 //   { id: 5, name: 'Tom' },
 // ];
 
-// console.log(uniq(arr1, arr2));
+// console.log((arr2, arr1));
 
 // const x = () => {}
 
