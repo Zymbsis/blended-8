@@ -5,6 +5,14 @@
 // Замініть значення "Блюз" на "Класика".
 // Видалить перший елемент масиву і виведіть його в консоль.
 // Вставте «Реп» і «Реггі» на початок масиву.
+
+// const styles = [`Djaz`, `Bluz`];
+// styles.push(`Rock-and-Roll`);
+// styles[1] = `Clasik`;
+// console.log(styles.shift());
+// styles.unshift(`Rap`, `Reggi`)
+// console.log(styles)
+
  
 //  styles.push(`Rook`)
 //  console.log(styles)
@@ -22,6 +30,16 @@
 
 //TODO:=========task-02=================
 //Перетворити рядок, що містить слова, розділені комами, в масив слів і вивести кожне слово в окремому рядку.
+
+// const arr = [`Oleg`, `Ruslan`, `Roma`, `igor`];
+// let result = arr.join(` `);
+// console.log(result)
+// arr.forEach((name) => {
+//   console.log(name)
+// })
+// console.log(arr);
+
+
 // const str = 'JavaScript, HTML, CSS, React';
 // const arr = str.split(`, `)
 // console.log(arr)
@@ -30,9 +48,22 @@
 // }
 
 
+
+
 //TODO:=========task-03=================
 // Знайти кількість слів у рядку, використовуючи методи масивів та цикл for...of.
+
 // const message = 'JavaScript is a popular programming language.';
+
+// let arr = message.split(` `);
+// let result = 0;
+// for(const word of arr){
+//   result += 1
+// }
+
+// console.log(result)
+
+
 // const item = message.split(``)
 // let result = 0
 // for(const word of item){
@@ -58,6 +89,9 @@
 //TODO:=========task-04=================
 // Об'єднати масив слів в рядок, розділений комами та пробілами.
 // const words = ['JavaScript', 'HTML', 'CSS', 'React'];
+// let result = words.join(` `);
+// console.log(result)
+
 // const item = words.join(` ,`)
 // console.log(item)
 
@@ -81,19 +115,19 @@
 // console.log(newArray)
 //TODO:=========task-06=================
 // Перевірити, чи містить масив заданий елемент. Якщо містить, видалити його, якщо ні - додати в кінець масиву.
-//  const array = ['JavaScript', 'HTML', 'CSS', 'SS'];
-//  const elem = 'SS';
-// function deleteWord (array, value) {
-//     const index = array.indexoff(value)
-// if (index !== -1) {
-//     array.splice(index, 1)
-// }
-// else{
-//     array.push(value)
-// }
-// return(array)
-// }
-// console.log(deleteWord (array, elem))
+ const array = ['JavaScript', 'HTML', 'CSS', 'SS'];
+ const elem = 'SS';
+
+if(array.includes(elem)){
+  const index = array.includes(elem);
+  array.splice(index, 1)
+}else {
+  array.push(elem);
+}
+
+console.log(array)
+
+
 
 
 //TODO:============task-07==============
@@ -411,19 +445,19 @@
 // Створіть масив об'єктів "студентів" з властивостями "ім'я", "прізвище" та "середній бал".
 // Напишіть функцію "findTopStudent", яка буде повертати об'єкт студента з найвищим середнім балом.
 
-const students = [
-  { name: 'Андрій', surname: 'Іванов', grade: 4.5 },
-  { name: 'Олександр', surname: 'Петров', grade: 3.9 },
-  { name: 'Марія', surname: 'Сидорова', grade: 4.8 },
-  { name: 'Ірина', surname: 'Федорова', grade: 4.2 },
-];
+// const students = [
+//   { name: 'Андрій', surname: 'Іванов', grade: 4.5 },
+//   { name: 'Олександр', surname: 'Петров', grade: 3.9 },
+//   { name: 'Марія', surname: 'Сидорова', grade: 4.8 },
+//   { name: 'Ірина', surname: 'Федорова', grade: 4.2 },
+// ];
 
 // students.forEach(student => {
 //   console.log(student.name)
 // })
-students.forEach(student => {
-  console.log(student.surname, student.name)
-})
+// students.forEach(student => {
+//   console.log(student.surname, student.name)
+// })
 
 
 // function findTopStudent(students) {
