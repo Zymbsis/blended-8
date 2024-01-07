@@ -107,7 +107,7 @@
 //TODO: 4 ===================================
 // Перевірити, чи є введене користувачем число парним чи непарним, і вивести відповідне повідомлення. Використай promt і виведи повідомлення в alert. (використати тернарний оператор)
 
-//  let userNumber = 12;
+//  let userNumber = 11;
 // let result = userNumber % 2 === 0 ? `parne number` : `neparne number`
 // console.log(result)
 
@@ -127,7 +127,7 @@
 //   message = 'Привіт';
 // } else if (login == 'Директор') {
 //   message = 'Вітаю';
-// } else if (login == '') {
+// } else if (login == 'Hello') {
 //   message = 'Немає логіну';
 // } else {
 //   message = '';
@@ -165,10 +165,10 @@
 //   number = prompt('Enter a number bigger than 100');
 // } while (number < 100);
 
-// let number = prompt('Enter a number bigger than 100');
+// let number1 = prompt('Enter a number bigger than 100');
 
-// while (number <= 100) {
-//   number = prompt('Enter a number bigger than 100');
+// while (number1 <= 100) {
+//   number1 = prompt('Enter a number bigger than 100');
 // }
 // alert('Thank you!');
 
@@ -191,7 +191,7 @@
 // числа від max до min за спаданням
 // Додайте усі парні числа від min до max
 
-// let min = 1;
+// let min = 0;
 // let max = 20;
 // for(let i = max; i > min; i --){
 //     console.log(i)
@@ -202,7 +202,8 @@
 // result += i
 //     }
 // }
-// console.log(result)
+// // console.log(result)
+
 // // const min = 1;
 // // const max = 10;
 // // let total = 0;
@@ -216,13 +217,12 @@
 // // }
 // // 
 // console.log(`Сума усіх парних: ${total}`);
-// const number = [1, 2, 3, 4, 6, 8];
+// const number = [ 2, 3, 4, 6, 8, 1];
 // let result;
 // for (let i = 0; i < number.length; i += 1) {
 //     if (number[i] % 2 === 0) {
 //         result += number[i];
-    
-        
+
 //    }
 // }
 
@@ -245,22 +245,23 @@
 // }
 
 
+
 //TODO: 10 ===================================
 //Якщо число ділитися на 3 повертати
 //fizz якщо ділитися на 5 повертати buzz
 //Якщо ділитися на 3 і на 5 повернути fizzbuzz
 
 // const number = 15; 
-// if(number % 3 === 0){
+// if(number % 3 === 0 && number % 5 !== 0){
 //     console.log(`fizz`);
-// }else if(number % 5 === 0){
+// }else if(number % 5 === 0 && number % 3 !== 0){
 //     console.log(`buzz`)
 // }else if(number % 3 === 0 && number % 5 === 0){
 //     console.log(`fizzBizz`)
 // }
 
 
-const number = [ 1, 23, 43, 65, 75, 15, 9, 4, 6, 8]
+// const number = [ 1, 23, 43, 65, 75, 15, 9, 4, 6, 8]
 // let result = number.filter(item=>{
 //     if(item % 3 === 0 && item % 5 ===0){
 //         console.log(item)
