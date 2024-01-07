@@ -261,7 +261,7 @@
 // }
 
 
-// const number = [ 1, 23, 43, 65, 75, 15, 9, 4, 6, 8]
+const number = [ 1, 23, 43, 65, 75, 15, 9, 4, 6, 8]
 // let result = number.filter(item=>{
 //     if(item % 3 === 0 && item % 5 ===0){
 //         console.log(item)
@@ -272,19 +272,10 @@
 //     }
 // })
 
-// let max = number.reduce((item, acc)=> Math.max(item, acc))
+// let max = number.reduce((item, acc)=> 
+// item - acc
+// )
 // console.log(max)
-
-
-// for(let i = 0; i < number.length; i ++)
-// if(number % 3 === 0 && number % 5 ===0){
-//     console.log(`fizzbuz`)
-// }else if(number % 5 === 0)
-//     {console.log(`buz`)
-// }else if(number % 3 === 0)
-// {console.log(`fizz`)
-// }
-// console.log(number)
 
 
 //* Конструкція switch
@@ -294,13 +285,13 @@
 // '2' - 'весна' і так далі. Розв'яжіть завдання через switch-case.
 
 
-// const num = 2;
+// const num = 5;
 // switch(num) {
 //     case 1: console.log(`Zima`); break;
 //     case 2: console.log(`Vesna`); break;
 //     case 3: console.log(`Leti`); break;
 //     case 4: console.log(`Osen`)
-//     default: console.log(`Osen`)
+//     default: console.log(`End`)
 // }
 
 
