@@ -11,7 +11,13 @@
 // } else{
 //     console.log(`noy`)
 // }
+// const userName = prompt(`enter your word`);
+// if(userName.toLocaleLowerCase().startsWith(`r`)){console.log(`Hello`);
 
+// }else { console.log(`user hello`)}
+
+// let elem = userName.toLocaleLowerCase().startsWith(`r`)? `hello Name` : `hello User`;
+// console.log(elem)
 
 
 // let result = str.toLocaleLowerCase().endsWith(`d`) ? `eys` : `noy`;
@@ -20,8 +26,7 @@
 // console.log(result)
 
 
-// let result = str.toLocaleLowerCase().includes(`bc`) ? `eys` : `noy`;
-// console.log(result)
+
 
 // function poli(str){
 // str = str.toLocaleLowerCase();

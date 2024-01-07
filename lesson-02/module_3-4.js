@@ -63,7 +63,6 @@
 
 // console.log(result)
 
-
 // const item = message.split(``)
 // let result = 0
 // for(const word of item){
