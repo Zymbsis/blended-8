@@ -26,17 +26,15 @@
 // console.log(result)
 
 
-
-
-// function poli(str){
-// str = str.toLocaleLowerCase();
-// if( str === str){
+// function poli(str1, str2){
+// str1 = str1.toLocaleLowerCase();
+// if( str1 === str2){
 //     console.log( `yes`);
-// }else if ( str !== str){
+// }else if ( str1 !== str2){
 //     console.log(`noy`)
 // }
 // }
-// console.log(poli(`absa`, `absa`))
+// console.log(poli(`absa`,`abqsxsa`))
 
 // const myStr = 'abcd';
 // if (myStr.toLowerCase().startsWith('a')) {
@@ -45,25 +43,13 @@
 //   console.log('no');
 // }
 // const result = myStr.toLowerCase().startsWith('a') ? 'yes' : 'no';
-// console.log(myStr.toLowerCase().startsWith('a'));
+// console.log(myStr.toLowerCase().startsWith('ab'));
 // console.log(result);
 
 
 // TODO: 2 ===================================
 // У змінній min лежить число від 0 до 60. Визначте у котру чверть години
 // Попадає це число (у першу, другу, третю або четверту). Виведіть значення у консоль, або alert
-
-// const min = 57;
-// if(min > 0 && min < 15){
-//     console.log(`part 1`);
-// }else if(min >15 && min < 30){
-//     console.log(`part 2`)
-// }else if(min > 30 && min <45){
-//     console.log(`part 3`)
-// }else if(min > 45 && min < 61){
-//     console.log(`part 4`)
-// }
-
 
 
 // const min = -1;
